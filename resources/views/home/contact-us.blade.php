@@ -36,8 +36,10 @@
                         </div>
                     </div>
                     @endif
-                    <form class="flex flex-col gap-6" action="{{ route('frontened.contact.us.save') }}" method="post" id="contactForm" method="post" enctype="multipart/form-data">
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}" />
+                    
+                    
+                        <form id="savecontactForm" enctype="multipart/form-data">
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}" />
                         <input type="hidden" name="enquiry_type" id="enquiry_type" value="Contacts">
                         <div class="flex items-center gap-3">
                             <div class="formGroup flex gap-1">
@@ -56,6 +58,7 @@
                             <div class="error">{{ $message }}</div>
                             @enderror
                         </div>
+                        <br/>
                         <div class="grid lg:grid-cols-2 gap-4 w-full">
                             <div class="formGroup flex flex-col gap-1">
                                 <label class="font-secondary font-medium text-primary-black" for="email">Your Email ID<span style="color:red;">*</span></label>
@@ -65,14 +68,22 @@
                                 @enderror
                             </div>
                             <div class="formGroup flex flex-col gap-1">
-                                <label class="font-secondary font-medium text-primary-black" for="phone">Your Phone Number<span style="color:red;">*</span></label>
+                            <label class="font-secondary font-medium text-primary-black" for="phone">Your Phone Number<span style="color:red;">*</span></label>
+                            <div class="flex items-center gap-2">
+                                <select id="countryDropdown" class="w-full md:w-1/2 lg:w-1/3 px-2 py-3  border border-[#C8C8C8] bg-transparent font-secondary text-primary-black">
+                                    <option value="91">(+91)</option>
+                                </select>
                                 <input class="px-2 py-3 border border-[#C8C8C8] bg-transparent font-secondary text-primary-black" id="phone" name="phone" placeholder="Enter Your Phone Number" type="text" value="{{ old('phone') }}" />
-                                @error('phone')
+                                
+                            </div>
+                            @error('phone')
                                 <div class="error">{{ $message }}</div>
                                 @enderror
-                            </div>
+                            <input type="hidden" id="countryCode" name="countryCode" value="91">
                         </div>
 
+                        </div>
+                        <br/>
                         <div class="grid lg:grid-cols-2 gap-4 w-full">
                             <div class="formGroup flex flex-col gap-1">
                                 <label class="font-secondary font-medium text-primary-black" for="country">Country<span style="color:red;">*</span></label>
@@ -98,6 +109,7 @@
                                 @enderror
                             </div>
                         </div>
+                        <br/>
                         <div class="formGroup flex flex-col gap-1">
                             <label class="font-secondary font-medium text-primary-black" for="message">Message<span style="color:red;">*</span></label>
                             <textarea class="px-2 py-3 border border-[#C8C8C8] bg-transparent font-secondary text-primary-black" id="message" name="message" placeholder="Write Your Message Here...">{{ old('message') }}</textarea>
@@ -105,14 +117,14 @@
                             <div class="error">{{ $message }}</div>
                             @enderror
                         </div>
-
+                        <br/>
                         <div class="flex flex-col gap-2 w-full">
                             <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY')}}"></div>
                             @error('g-recaptcha-response')
                             <div class="error">{{ $message }}</div>
                             @enderror
                         </div>
-
+                        <br/>
                         <div class="formGroup flex  gap-1">
                             <button
                                 type='submit'
@@ -162,20 +174,182 @@
         </div>
     </div>
 </section>
-<div id="page-loader" class="hidden text-center py-4">
+<!--<div id="page-loader" class="hidden text-center py-4">
     <svg class="page-spinner animate-spin h-10 w-10 text-primary-yellow mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
         <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
         <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"></path>
     </svg>
+</div>-->
+<!-- OTP Modal -->
+<div id="otpModal" class="fixed inset-0 bg-gray-500 bg-opacity-50 flex items-center justify-center hidden transition-opacity duration-300 opacity-0">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-1/3">
+        <h2 class="text-xl font-semibold mb-4">OTP Verification</h2>
+        <p>Your OTP has been sent. Please check your mobile.</p>
+
+        <!-- OTP Input -->
+        <div class="mb-4">
+            <label for="otp" class="block text-sm font-medium text-gray-700">Enter OTP</label>
+            <input type="text" id="otp" name="otp" class="mt-1 p-2 border border-gray-300 rounded w-full" required placeholder="Enter OTP">
+            <span id="otpError" class="text-red-500 text-sm hidden">OTP is required</span>
+        </div>
+
+        <!-- Submit Button -->
+        <button id="verifyOtp" class="mt-4 px-4 py-2  text-black rounded-full " style="background-color: #eebb0c;">Verify OTP</button>
+        <!--<button id="closeModal" class="mt-4 px-4 py-2 bg-gray-500 text-black rounded-full ml-2" style="background-color: #eebb0c;">Close</button>-->
+    </div>
 </div>
+
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script type="text/javascript">
-    $(document).ready(function() {
+    $(document).ready(function () {
+
+        
+
+        $("#savecontactForm").validate({
+        ignore: [],
+        debug: false,
+        rules: {
+            fullName: {
+                required: true,
+                noSpace: true,
+                allowedCharacter: true
+            },
+            email: {
+                required: true,
+                email: true, // Ensures a valid email format
+            },
+            phone: {
+                required: true,
+                noSpace: true,
+                minlength: 10,
+                maxlength: 15, // Restrict max digits
+                digits: true // Only digits allowed
+            },
+            message: {
+                required: true,
+                noSpace: true,
+            },
+            country: {
+                required: true,
+                noSpace: true,
+                allowedCharacter: true
+            },
+            files: {
+                validate_file_type_size: true, // Custom validation for file type and size
+            },
+        },
+        messages: {
+            fullName: {
+                required: 'Please enter your full name',
+            },
+            email: {
+                required: 'Please enter your email',
+                email: 'Please enter a valid email address',
+            },
+            phone: {
+                required: 'Please enter your phone number',
+                minlength: 'Your phone number must be at least 10 digits',
+                maxlength: 'Your phone number must not exceed 15 digits',
+                digits: 'Please enter only numbers',
+            },
+            message: {
+                required: 'Please enter a message',
+            },
+            country: {
+                required: 'Please select a country',
+            },
+            files: {
+                validate_file_type_size: 'Only JPG, GIF, PNG, JPEG, and PDF of max 2MB are allowed',
+            },
+        },
+        
+    });
+        
         $.ajaxSetup({
             headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+            },
         });
+
+        
+        $('#savecontactForm').on('submit', function (event) {
+            
+            event.preventDefault(); 
+            const formData = new FormData(this); 
+
+            $.ajax({
+                url: '{{ route("frontened.contact.us.save") }}',
+                method: 'POST',
+                data: formData,
+                processData: false, 
+                contentType: false,
+                success: function (response) {
+                    if (response.success) {
+                        showModal();
+                        $('#savecontactForm')[0].reset();
+                    } 
+                },
+               error: function(xhr, status, error) {
+                alert('Something went wrong, please try again.');
+            }
+            });
+        });
+
+        
+        $.get('{{ route("countries.get") }}', function (countries) {
+            const dropdown = $('#countryDropdown');
+            countries.forEach(function (country) {
+                dropdown.append(
+                    `<option value="${country.phonecode}" data-iso2="${country.sortname}">
+                        ${country.name} (+${country.phonecode})
+                    </option>`
+                );
+            });
+        });
+
+       
+        $('#countryDropdown').on('change', function () {
+            const selectedOption = $(this).find(':selected');
+            const countryCode = selectedOption.val();
+            $('#countryCode').val(countryCode);
+        });
+        function showModal() {
+    const modal = document.getElementById('otpModal');
+    modal.classList.remove('hidden', 'opacity-0');
+    modal.classList.add('opacity-100');
+}
+
+function hideModal() {
+    const modal = document.getElementById('otpModal');
+    modal.classList.remove('opacity-100');
+    modal.classList.add('opacity-0');
+    setTimeout(() => modal.classList.add('hidden'), 300); // Hide after the transition ends
+}
+
+$('#verifyOtp').on('click', function() {
+    var otp = $('#otp').val(); 
+    $.ajax({
+      url: '{{ route("verify-otp") }}',  
+        method: 'POST',
+        data: {
+            otp: otp,
+            _token: $('meta[name="csrf-token"]').attr('content')
+        },
+        success: function(response) {
+            alert(response.message);  
+            hideModal(); 
+        },
+        error: function(xhr, status, error) {
+            alert(xhr.responseJSON.error);  
+        }
     });
+});
+
+    });
+
 </script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+
 @endsection

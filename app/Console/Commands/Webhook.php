@@ -79,9 +79,9 @@ class Webhook extends Command
                             'state' => $arr['REGION'],
                             'country'     => $arr['COUNTRY'],
                             'locationId' => $this->locationId,
-                            'source' => 'SolaX Power US - '.$enq->source,
+                            'source' => 'Olax Power US - '.$enq->source,
                             'tags' => [
-                                "'SolaX Power US - $enq->source'"
+                                "'Olax Power US - $enq->source'"
                             ]
                         ];
 

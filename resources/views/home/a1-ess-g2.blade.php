@@ -127,7 +127,7 @@
                             </li>
                             <li class="flex text-base  font-secondary leading-[24px] text-primary-black">
                                 <img src="{{ asset('/assets/A1Hybrid/CheckCircle.png') }}" alt="Check" class="w-6 h-6 mr-2">
-                                VPP ready, SolaX cloud support resource aggregator (IEEE 2030.5, OpenADR)
+                                VPP ready, Olax cloud support resource aggregator (IEEE 2030.5, OpenADR)
                             </li>
                         </ul>
                     </div>
@@ -247,7 +247,7 @@
 @include('layout.newsletter')
 <script>
     const images = [
-        "/assets/A1Hybrid/solax.webp"
+        "/assets/A1Hybrid/Olax.webp"
     ];
 
     // let currentThumbnail = document.getElementById('thumb-0');

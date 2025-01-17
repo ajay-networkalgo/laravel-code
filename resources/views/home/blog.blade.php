@@ -21,7 +21,7 @@
             <a href="{{ route('blogs.frontened.index','') }}" class="px-6 py-2 rounded-full font-secondary font-medium whitespace-nowrap {{ Route::currentRouteName() == 'blogs.frontened.index' && !request()->route('slug') ? 'bg-primary-orange text-primary-white' : 'text-primary-black' }}">All Blogs</a>
           </li>
           <li>
-            <a href="{{ route('blogs.frontened.index','solax-accessories') }}" class="px-6 py-2 rounded-full font-secondary font-medium whitespace-nowrap {{ Route::currentRouteName() == 'blogs.frontened.index' && request()->route('slug') == 'solax-accessories' ? 'bg-primary-orange text-primary-white' : 'text-primary-black' }}">SolaX Accessories</a>
+            <a href="{{ route('blogs.frontened.index','Olax-accessories') }}" class="px-6 py-2 rounded-full font-secondary font-medium whitespace-nowrap {{ Route::currentRouteName() == 'blogs.frontened.index' && request()->route('slug') == 'Olax-accessories' ? 'bg-primary-orange text-primary-white' : 'text-primary-black' }}">Olax Accessories</a>
           </li>
           <li>
             <a href="{{ route('blogs.frontened.index','installers') }}" class="px-6 py-2 rounded-full font-secondary font-medium whitespace-nowrap {{ Route::currentRouteName() == 'blogs.frontened.index' && request()->route('slug') == 'installers' ? 'bg-primary-orange text-primary-white' : 'text-primary-black' }}">Installers</a>

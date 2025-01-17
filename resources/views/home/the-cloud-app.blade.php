@@ -48,7 +48,7 @@
                     class="font-primary text-base xl:text-lg text-primary-orange font-medium uppercase">EASY, SAFE, SMART LIFE</span>
                 <h2
                     class="font-primary text-[32px] leading-[36px] lg:text-4xl xl:text-6xl lg:leading-[70px] text-primary-black font-medium md:w-[60%]">
-                    SolaX Smart Energy Management System
+                    Olax Smart Energy Management System
                 </h2>
                 <p
                     class="font-secondary text-lg leading-[24px] md:text-[24px] md:leading-[32px] xl:text-[32px] xl:leading-[44px] md:w-[70%] text-primary-black">
@@ -73,10 +73,10 @@
         <div class="flex flex-col gap-10 lg:gap-[140px]">
             <div class="flex flex-col items-center gap-6">
                 <span
-                    class="font-primary text-base xl:text-lg text-primary-orange font-medium text-center uppercase">why Solax cloud</span>
+                    class="font-primary text-base xl:text-lg text-primary-orange font-medium text-center uppercase">why Olax cloud</span>
                 <h2
                     class="font-primary text-[32px] leading-[36px] xl:text-4xl lg:text-6xl text-primary-white font-medium text-center">
-                    Solax Cloud App Features
+                    Olax Cloud App Features
                 </h2>
             </div>
 
@@ -93,7 +93,7 @@
                             <span
                                 class="font-primary font-medium text-[24px] leading-[28px] md:text-[32px] md:leading-[36px] lg:text-[48px] lg:leading-[62px] text-[#F5F5F5]">Flexible to Integrate Third-Party Systems</span>
                             <span
-                                class="font-secondary text-sm md:text-base lg:text-lg md:leading-[21px] text-[#F5F5F5] lg:w-[60%]">Geo location weather information. SolaX Cloud makes life
+                                class="font-secondary text-sm md:text-base lg:text-lg md:leading-[21px] text-[#F5F5F5] lg:w-[60%]">Geo location weather information. Olax Cloud makes life
                                 simple.</span>
                         </div>
                     </div>

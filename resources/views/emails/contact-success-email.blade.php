@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solax Power - Thank you for your enquiry!</title>
+    <title>Olax Power - Thank you for your enquiry!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -69,20 +69,20 @@
 <body>
     <div class="container">
         <div class="header">
-            <img src="{{ asset('/assets/Solax_Logo.svg') }}" alt="Solax Power">
+            <img src="{{ asset('/assets/Olax_Logo.svg') }}" alt="Olax Power">
         </div>
         <div class="content">
             <h1>Thank You!</h1>
             <p>Dear {{$customerName}},</p>
-            <p>Thank you for your enquiry with SolaX Power. We’re excited to help you with your SolaX Power needs and look forward to meeting with you.</p>
+            <p>Thank you for your enquiry with Olax Power. We’re excited to help you with your Olax Power needs and look forward to meeting with you.</p>
             <p>Our representative will contact you soon.</p>
             <!-- <p>If you need to reschedule or have any questions, please don’t hesitate to contact us.</p>
             <p>We look forward to seeing you!</p> -->
         </div>
         <div class="footer">
             <p>Best Regards,</p>
-            <p>Solax Power</p>
-            <p><a href="{{env('APP_URL')}}">www.solaxpower.us</a></p>
+            <p>Olax Power</p>
+            <p><a href="{{env('APP_URL')}}">www.Olaxpower.us</a></p>
         </div>
     </div>
 </body>

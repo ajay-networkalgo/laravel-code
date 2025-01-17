@@ -324,7 +324,7 @@
                         <li>
                             <div class="text-white gap-4">
                                 <h1 class="text-2xl font-semibold text-left mb-6">
-                                SolaX Energy Storage for Home: Smart Power Solutions for Your Needs
+                                Olax Energy Storage for Home: Smart Power Solutions for Your Needs
                                 </h1>
                                 <p class="font-secondary text-primary-white">
                                 We bring to you advanced solutions for <strong>energy storage for home</strong>, designed to enhance your home’s power efficiency and support reliable energy storage. Our systems aim to optimize both backup power and maximize the efficiency of solar panels, delivering optimized performance. Empower your lifestyle with sustainable energy built into cutting-edge technology now!
@@ -333,7 +333,7 @@
                                 <h2 class="text-2xl font-semibold important-mt-8 mb-6">
                                 Our Product Portfolio: Innovative Energy Storage Systems
                                 </h2>
-                                <p class="font-secondary text-primary-white">From home energy storage batteries to energy storage battery systems, SolaX stands for reliable solutions for a wide range of residential energy needs. Our <strong>solar energy storage solutions</strong> are effectively integrated into your existing solar setup to provide you with smooth control over your energy management. Here are some of our key products.</p>
+                                <p class="font-secondary text-primary-white">From home energy storage batteries to energy storage battery systems, Olax stands for reliable solutions for a wide range of residential energy needs. Our <strong>solar energy storage solutions</strong> are effectively integrated into your existing solar setup to provide you with smooth control over your energy management. Here are some of our key products.</p>
 
                                 <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-6">
                                     <div class="shadow-lg rounded-lg">
@@ -361,13 +361,13 @@
                                             </div>
                                             <span class="font-bold">Microinverter</span>
                                         </div>
-                                        <p class="font-secondary text-primary-white">SolaX <strong><a href="/products/microinverter/microinverter-1-in-1">microinverters</a></strong> are built to address the challenge of the latest high-power solar panels. Featuring IP67-rated lightning protection, they are designed for reliable operations, even in challenging weather conditions within specified safety standards.</p>
+                                        <p class="font-secondary text-primary-white">Olax <strong><a href="/products/microinverter/microinverter-1-in-1">microinverters</a></strong> are built to address the challenge of the latest high-power solar panels. Featuring IP67-rated lightning protection, they are designed for reliable operations, even in challenging weather conditions within specified safety standards.</p>
                                     </div>
                                 </div>
                                 <br/>
-                                <h2 class="text-2xl font-semibold mt-12 mb-6">Unique Features of SolaX Energy Storage Systems for Your Home</h2>
+                                <h2 class="text-2xl font-semibold mt-12 mb-6">Unique Features of Olax Energy Storage Systems for Your Home</h2>
 
-                                <p class="font-secondary text-primary-white">Investing in SolaX Power is an investment in technology that mirrors innovation, convenience, and sustainability. Our energy storage systems are specifically designed to provide more than simply backup power. Here's how we enhance the standards of home energy storage:</p>
+                                <p class="font-secondary text-primary-white">Investing in Olax Power is an investment in technology that mirrors innovation, convenience, and sustainability. Our energy storage systems are specifically designed to provide more than simply backup power. Here's how we enhance the standards of home energy storage:</p>
 
                                 <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mt-6">
                                     <div class="shadow-lg rounded-lg">
@@ -377,7 +377,7 @@
                                             </div>
                                             <span class="font-bold">High Durability</span>
                                         </div>
-                                        <p class="font-secondary text-primary-white">Our devices have to pass strict quality testing for durability because they are engineered to withstand a range of environmental conditions, such as extreme temperatures and vibrations. Therefore, SolaX systems are quite dependable for long-term energy management.</p>
+                                        <p class="font-secondary text-primary-white">Our devices have to pass strict quality testing for durability because they are engineered to withstand a range of environmental conditions, such as extreme temperatures and vibrations. Therefore, Olax systems are quite dependable for long-term energy management.</p>
                                     </div>
                                     <div class="shadow-lg rounded-lg">
                                         <div class="mb-4 flex items-center space-x-2">
@@ -395,7 +395,7 @@
                                             </div>
                                             <span class="font-bold">Expert Support at Every Step</span>
                                         </div>
-                                        <p class="font-secondary text-primary-white">SolaX has a global support network that ensures you get help when needed. From product queries to technical troubleshooting, our dedicated teams are here to guide you toward ensuring that your ownership experience is smooth.</p>
+                                        <p class="font-secondary text-primary-white">Olax has a global support network that ensures you get help when needed. From product queries to technical troubleshooting, our dedicated teams are here to guide you toward ensuring that your ownership experience is smooth.</p>
                                     </div>
                                     <div class="shadow-lg rounded-lg">
                                         <div class="mb-4 flex items-center space-x-2">
@@ -404,7 +404,7 @@
                                             </div>
                                             <span class="font-bold">Long-Lasting Performance</span>
                                         </div>
-                                        <p class="font-secondary text-primary-white">Every SolaX product is designed with high-quality materials and cutting-edge technology that will provide consistent and reliable energy storage. Such quality commitment maximizes the lifespan of your <strong>home energy storage battery</strong> and supports uninterrupted power for critical needs, depending on system capacity.</p>
+                                        <p class="font-secondary text-primary-white">Every Olax product is designed with high-quality materials and cutting-edge technology that will provide consistent and reliable energy storage. Such quality commitment maximizes the lifespan of your <strong>home energy storage battery</strong> and supports uninterrupted power for critical needs, depending on system capacity.</p>
                                     </div>
                                     <div class="shadow-lg rounded-lg">
                                         <div class="mb-4 flex items-center space-x-2">
@@ -418,10 +418,10 @@
                                 </div>
                                 <br/>
                                 <h2 class="text-2xl font-semibold mt-12 mb-6">
-                                Explore SolaX’s Diverse Range of Products for All Your Energy Storage Needs
+                                Explore Olax’s Diverse Range of Products for All Your Energy Storage Needs
                                 </h2>
                                 <div class="text-lg leading-relaxed space-y-6">
-                                    <p class="font-secondary text-primary-white">Experience the freedom of storing energy efficiently and dependably for your home with SolaX. From tough backup power to easy installations, we have the right solution for you. Empower your home's energy management with our extensive <strong>solar energy storage solutions!</strong></p>
+                                    <p class="font-secondary text-primary-white">Experience the freedom of storing energy efficiently and dependably for your home with Olax. From tough backup power to easy installations, we have the right solution for you. Empower your home's energy management with our extensive <strong>solar energy storage solutions!</strong></p>
                                 </div>
                             </div>
                         </li>

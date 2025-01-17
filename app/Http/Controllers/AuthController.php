@@ -32,7 +32,7 @@ class AuthController extends Controller
         ]);
 
         if($validator->fails()){
-            return redirect('admin/solax-login-authority')->withErrors($validator)->withInput();
+            return redirect('admin/Olax-login-authority')->withErrors($validator)->withInput();
         }
         $input = $request->all();
         $remember_me = (isset($input['remember_me']) && $input['remember_me']==1) ? true:false;
@@ -43,7 +43,7 @@ class AuthController extends Controller
             Session::flash('alert-class', 'alert-danger');
             Session::flash('icon-class', 'icon fa fa-ban');
         }
-        return redirect('admin/solax-login-authority');
+        return redirect('admin/Olax-login-authority');
     }
 
     public function dashboard(){
@@ -60,11 +60,11 @@ class AuthController extends Controller
         Session::flash('message','Password has been updated successfully.');
         Session::flash('alert-class', 'alert-success');
         Session::flash('icon-class', 'icon fa fa-check');
-        return redirect('admin/solax-login-authority');
+        return redirect('admin/Olax-login-authority');
     }
 
     public function logout(){
         Auth::logout();
-        return redirect('admin/solax-login-authority');
+        return redirect('admin/Olax-login-authority');
     }
 }

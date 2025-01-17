@@ -4,7 +4,7 @@
   <div class="default_container max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto h-full">
     <div class="flex justify-center items-center h-full">
       <div class="hero-content-top flex flex-col items-center gap-4">
-        <h1 class="font-primary text-primary-white text-[42px] leading-[48px] sm:text-[52px] sm:leading-[58px] lg:text-[72px] lg:leading-[80px] xl:text-[80px] xl:leading-[88px] text-center">SolaX News</h1>
+        <h1 class="font-primary text-primary-white text-[42px] leading-[48px] sm:text-[52px] sm:leading-[58px] lg:text-[72px] lg:leading-[80px] xl:text-[80px] xl:leading-[88px] text-center">Olax News</h1>
         <p class="font-secondary font-medium text-lg lg:text-xl text-primary-white text-center lg:max-w-[56%]">
           Stay informed with our up-to-the-minute news coverage. From breaking stories to in-depth analysis, we bring you the latest developments.
         </p>

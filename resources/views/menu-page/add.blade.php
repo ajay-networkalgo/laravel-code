@@ -24,7 +24,7 @@
               <div class="form-group row">
                 <div class="col-md-4">
                     <label>Menu Section:</label>
-                    <select name="solax_menu_section" id="solax_menu_section" class="form-control">
+                    <select name="Olax_menu_section" id="Olax_menu_section" class="form-control">
                       <option value="">--Select--</option>
                       <option value="Header">Header</option>
                       <option value="Footer">Footer</option>
@@ -37,15 +37,15 @@
                   </div>
                   <div class="col-md-4">
                     <label>name<span style="color: red;">*</span></label>
-                    <input type="text" class="form-control" name="solax_menu_name" id="solax_menu_name" placeholder="Enter menu name">
-                    @error('solax_menu_name')
+                    <input type="text" class="form-control" name="Olax_menu_name" id="Olax_menu_name" placeholder="Enter menu name">
+                    @error('Olax_menu_name')
                       <div class="error">{{ $message }}</div>
                     @enderror
                   </div>
                   <div class="col-md-4">
                     <label>Url<span style="color: red;">*</span></label>
-                    <input type="text" class="form-control" name="solax_menu_url" id="solax_menu_url" placeholder="Enter menu url">
-                    @error('solax_menu_url')
+                    <input type="text" class="form-control" name="Olax_menu_url" id="Olax_menu_url" placeholder="Enter menu url">
+                    @error('Olax_menu_url')
                       <div class="error">{{ $message }}</div>
                     @enderror
                   </div>

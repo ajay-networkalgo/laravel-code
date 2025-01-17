@@ -221,7 +221,7 @@ class GHLController extends Controller
     //                     'locationId' => $enq->name,
     //                     'phone' => $enq->name,
     //                     'country' => $enq->name,
-    //                     'source' => 'Solax Power US leads - ' . $enq->enquiry_type,
+    //                     'source' => 'Olax Power US leads - ' . $enq->enquiry_type,
     //                     'customFields' => [
     //                         [
     //                             'id' => $enq->id . time(),

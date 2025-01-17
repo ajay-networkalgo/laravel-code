@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Solax Power</title>
+  <title>Olax Power</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -18,7 +18,7 @@
 <div class="register-box">
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <h1><b>Solax</b> Power</h1>
+      <h1><b>Olax</b> Power</h1>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Register a new membership</p>

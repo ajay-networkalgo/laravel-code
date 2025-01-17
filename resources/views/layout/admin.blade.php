@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <link rel="icon" type="image/png" href="{{ asset('/assets/favicon.png') }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Solax Power</title>
+  <title>Olax Power</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <link rel="stylesheet" href="{{ asset('css/fontawesome-free/css/all.min.css') }}">
   <link rel="stylesheet" href="{{ asset('css/overlayScrollbars/css/OverlayScrollbars.min.css') }}">

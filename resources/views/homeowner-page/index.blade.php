@@ -89,31 +89,31 @@
           <div class="col-md-6">
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Solax App Section</h3>
+                <h3 class="card-title">Olax App Section</h3>
               </div>
               <div class="card-body">
                 <div class="form-group row">
                   <div class="col-md-12">
-                    <label>Solax App Title <span style="color: red;">*</span>
+                    <label>Olax App Title <span style="color: red;">*</span>
                     </label>
-                    <input type="text" class="form-control" name="homeowner_solax_app_title" id="homeowner_solax_app_title" value="{{ $homeownerpagecontent['homeowner_solax_app_title']['value'] ?? '' }}"> @error('homeowner_solax_app_title') <div class="error">{{ $message }}</div> @enderror
+                    <input type="text" class="form-control" name="homeowner_Olax_app_title" id="homeowner_Olax_app_title" value="{{ $homeownerpagecontent['homeowner_Olax_app_title']['value'] ?? '' }}"> @error('homeowner_Olax_app_title') <div class="error">{{ $message }}</div> @enderror
                   </div>
                 </div>
                 <div class="form-group row">
                   <div class="col-md-12">
-                    <label>Solax App Sub Title <span style="color: red;">*</span>
+                    <label>Olax App Sub Title <span style="color: red;">*</span>
                     </label>
-                    <input type="text" class="form-control" name="homeowner_solax_app_sub_title" id="homeowner_solax_app_sub_title" value="{{ $homeownerpagecontent['homeowner_solax_app_sub_title']['value'] ?? '' }}"> @error('homeowner_solax_app_sub_title') <div class="error">{{ $message }}</div> @enderror
+                    <input type="text" class="form-control" name="homeowner_Olax_app_sub_title" id="homeowner_Olax_app_sub_title" value="{{ $homeownerpagecontent['homeowner_Olax_app_sub_title']['value'] ?? '' }}"> @error('homeowner_Olax_app_sub_title') <div class="error">{{ $message }}</div> @enderror
                   </div>
                 </div>
                 <div class="form-group row">
                   <div class="col-md-12">
-                    <label>Solax App Video <span style="color: red;">*</span>
+                    <label>Olax App Video <span style="color: red;">*</span>
                     </label>
-                    <input type="file" class="form-control" name="homeowner_solax_app_video" id="homeowner_solax_app_video"> @error('homeowner_solax_app_video') <div class="error">{{ $message }}</div> @enderror <div class="card">
-                      <input type="hidden" name="homeowner_solax_app_video_old" id="homeowner_solax_app_video_old" value="{{ $homeownerpagecontent['homeowner_solax_app_video']['value'] ?? '' }}">
+                    <input type="file" class="form-control" name="homeowner_Olax_app_video" id="homeowner_Olax_app_video"> @error('homeowner_Olax_app_video') <div class="error">{{ $message }}</div> @enderror <div class="card">
+                      <input type="hidden" name="homeowner_Olax_app_video_old" id="homeowner_Olax_app_video_old" value="{{ $homeownerpagecontent['homeowner_Olax_app_video']['value'] ?? '' }}">
                       <video class="card-img-top img-fluid" controls>
-                        <source src="/assets/videos/compressed/{{ $homeownerpagecontent['homeowner_solax_app_video']['value'] ?? '' }}" type="video/mp4">
+                        <source src="/assets/videos/compressed/{{ $homeownerpagecontent['homeowner_Olax_app_video']['value'] ?? '' }}" type="video/mp4">
                       </video>
                     </div>
                   </div>

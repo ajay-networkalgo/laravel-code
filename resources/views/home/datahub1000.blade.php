@@ -96,7 +96,7 @@
                     class="font-primary text-4xl lg:text-6xl lg:leading-[70px] text-primary-white font-medium text-center">
                     X Power Difference
                 </h2>
-                <p class="font-secondary text-base leading-[24px] text-[#F5F5F5] font-normal lg:w-[70%] text-center">Introducing the DataHub1000, a reliable device designed to effortlessly monitor and manage your site, particularly when equipped with multiple SolaX inverters. With its advanced power control features, this professional device ensures that your system is compliant with local grid requirements, enabling you to maximize control and efficiency. Experience remote monitoring, intelligent power control, and robust data storage, all tailored to enhance the performance of your energy system.</p>
+                <p class="font-secondary text-base leading-[24px] text-[#F5F5F5] font-normal lg:w-[70%] text-center">Introducing the DataHub1000, a reliable device designed to effortlessly monitor and manage your site, particularly when equipped with multiple Olax inverters. With its advanced power control features, this professional device ensures that your system is compliant with local grid requirements, enabling you to maximize control and efficiency. Experience remote monitoring, intelligent power control, and robust data storage, all tailored to enhance the performance of your energy system.</p>
             </div>
 
             <div class="flex flex-col lg:flex-row gap-10">

@@ -92,7 +92,7 @@
                     <select name="page_id" id="page_id" class="form-control">
                       <option value="">--Select--</option>
                       @foreach($menulist as $menu)
-                        <option value="{{ $menu->id }}" {{ $page->page_id == $menu->id ? 'selected' : '' }}>{{ $menu->solax_menu_name }}</option>
+                        <option value="{{ $menu->id }}" {{ $page->page_id == $menu->id ? 'selected' : '' }}>{{ $menu->Olax_menu_name }}</option>
                       @endforeach
                     </select>
                     @error('page_id')

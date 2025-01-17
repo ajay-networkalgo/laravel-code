@@ -139,10 +139,10 @@
                     X Power Difference
                 </h2>
                 <p class="font-secondary text-base leading-[24px] text-[#F5F5F5] font-normal lg:w-[70%] text-center">
-                    Introducing the SolaX A1-Micro series - the apex of microinverter technology. With an exceptional capacity of up to 600 VA, these leading 1-in-1 microinverters provide unrivaled power efficiency and dependability. Engineered for high-power modules, the A1-Micro series boasts advanced MPPT technology, managing substantial input currents and exceptional output power. Integrated PLC communication ensures seamless monitoring and control. Ideal for both residential and commercial solar applications, the A1-Micro series others cost-effective solutions and integrates effortlessly with the SolaX Hybrid system and AC coupled systems.
+                    Introducing the Olax A1-Micro series - the apex of microinverter technology. With an exceptional capacity of up to 600 VA, these leading 1-in-1 microinverters provide unrivaled power efficiency and dependability. Engineered for high-power modules, the A1-Micro series boasts advanced MPPT technology, managing substantial input currents and exceptional output power. Integrated PLC communication ensures seamless monitoring and control. Ideal for both residential and commercial solar applications, the A1-Micro series others cost-effective solutions and integrates effortlessly with the Olax Hybrid system and AC coupled systems.
                 </p>
 
-                <iframe width="100%" height="631" src="https://www.youtube.com/embed/1-zwaFbwJh8" title="SolaX Microinverter X1-Micro Series Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100%" height="631" src="https://www.youtube.com/embed/1-zwaFbwJh8" title="Olax Microinverter X1-Micro Series Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
             <div class="flex flex-col lg:flex-row gap-10">
@@ -298,7 +298,7 @@
 
                 <div class="lg:w-[40%] bg-[#FFF] flex justify-center items-end">
                     <!-- <img class="lazyload" data-src="{{ asset('/assets/A1Hybrid/switch-box.webp') }}" alt="solar battery storage system"> -->
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1-zwaFbwJh8" title="SolaX Microinverter X1-Micro Series Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1-zwaFbwJh8" title="Olax Microinverter X1-Micro Series Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
 

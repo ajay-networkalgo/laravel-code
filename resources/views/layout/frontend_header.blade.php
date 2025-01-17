@@ -7,7 +7,7 @@ $routeName = Route::currentRouteName();
         class="default_container max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div class="h-20 flex items-center justify-between">
             <a href="/">
-                <img class="lazyload" data-src="{{ asset('assets/Solax_Logo.svg') }}" alt="Solax Power" />
+                <img class="lazyload" data-src="{{ asset('assets/Olax_Logo.svg') }}" alt="Olax Power" />
             </a>
 
             <div>
@@ -24,7 +24,7 @@ $routeName = Route::currentRouteName();
         class="default_container max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div class="h-20 flex items-center justify-center">
             <a href="{{ url('/') }}">
-                <img class="lazyload" data-src="{{ asset('assets/Solax_Logo.svg') }}" alt="Solax Power" />
+                <img class="lazyload" data-src="{{ asset('assets/Olax_Logo.svg') }}" alt="Olax Power" />
             </a>
         </div>
     </div>
@@ -33,7 +33,7 @@ $routeName = Route::currentRouteName();
 <header class="bg-primary-black z-[999] w-full top-0 left-0 z-50">
     <div class="default_container max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div class="h-20 flex items-center justify-between">
-            <a href="{{ url('/') }}"><img class="lazyload" data-src="{{ asset('assets/Solax_Logo.svg') }}" alt="Solax Power" /></a>
+            <a href="{{ url('/') }}"><img class="lazyload" data-src="{{ asset('assets/Olax_Logo.svg') }}" alt="Olax Power" /></a>
             <div id="navMenu" class="nav-menu py-10 px-6 lg:px-0 lg:py-0 lg:w-2/3 flex flex-col lg:flex-row items-center justify-between gap-6 absolute z-50 w-[320px] sm:w-[448px] md:w-[672px] lg:w-[65%] rounded-2xl lg:rounded-none top-24 bg-primary-black lg:static">
                 <ul class="flex flex-col lg:flex-row gap-6 lg:gap-10">
                     <li class="flex justify-center">
@@ -94,7 +94,7 @@ $routeName = Route::currentRouteName();
             <div
                 class="bg-[#15151580] border border-[#C8C8C824] flex items-center gap-4 p-4 rounded-full">
                 <a href="{{ url('/') }}">
-                    <img class="lazyload" data-src="{{ asset('assets/Solax_Logo.svg') }}" alt="Solax Power" />
+                    <img class="lazyload" data-src="{{ asset('assets/Olax_Logo.svg') }}" alt="Olax Power" />
                 </a>
 
                 @if($routeName == 'frontened.installer' || $routeName == 'frontened.book.appointment')
@@ -124,7 +124,7 @@ $routeName = Route::currentRouteName();
             <div
                 class="bg-[#15151580] border border-[#C8C8C824] flex items-center gap-4 p-4 rounded-full">
                 <a href="{{ url('/') }}">
-                    <img class="lazyload" data-src="{{ asset('assets/Solax_Logo.svg') }}" alt="Solax Power" />
+                    <img class="lazyload" data-src="{{ asset('assets/Olax_Logo.svg') }}" alt="Olax Power" />
                 </a>
 
                 @if($routeName == 'frontened.installer' || $routeName == 'frontened.book.appointment')

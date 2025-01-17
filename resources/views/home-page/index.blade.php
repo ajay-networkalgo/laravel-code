@@ -140,35 +140,35 @@
           <div class="col-md-12">
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Solax Smart</h3>
+                <h3 class="card-title">Olax Smart</h3>
               </div>
               <div class="card-body">
                 <div class="form-group row">
                   <div class="col-md-12">
-                    <label>Solax Smart Title <span style="color: red;">*</span>
+                    <label>Olax Smart Title <span style="color: red;">*</span>
                     </label>
-                    <input type="text" class="form-control" name="home_solax_smart_title" id="home_solax_smart_title" value="{{ $homepagecontent['home_solax_smart_title']['value'] ?? '' }}"> @error('home_solax_smart_title') <div class="error">{{ $message }}</div> @enderror
+                    <input type="text" class="form-control" name="home_Olax_smart_title" id="home_Olax_smart_title" value="{{ $homepagecontent['home_Olax_smart_title']['value'] ?? '' }}"> @error('home_Olax_smart_title') <div class="error">{{ $message }}</div> @enderror
                   </div>
                   <div class="col-md-12">
-                    <label>Solax Smart Sub Title <span style="color: red;">*</span>
+                    <label>Olax Smart Sub Title <span style="color: red;">*</span>
                     </label>
-                    <input type="text" class="form-control" name="home_solax_smart_sub_title" id="home_solax_smart_sub_title" value="{{ $homepagecontent['home_solax_smart_sub_title']['value'] ?? '' }}"> @error('home_solax_smart_sub_title') <div class="error">{{ $message }}</div> @enderror
+                    <input type="text" class="form-control" name="home_Olax_smart_sub_title" id="home_Olax_smart_sub_title" value="{{ $homepagecontent['home_Olax_smart_sub_title']['value'] ?? '' }}"> @error('home_Olax_smart_sub_title') <div class="error">{{ $message }}</div> @enderror
                   </div>
                   <div class="col-md-12">
-                    <label>Solax Smart Content <span style="color: red;">*</span>
+                    <label>Olax Smart Content <span style="color: red;">*</span>
                     </label>
-                    <textarea name="home_solax_smart_content" id="home_solax_smart_content" class="form-control">{!! $homepagecontent['home_solax_smart_content']['value'] ?? '' !!}</textarea>
-                     @error('home_solax_smart_content') <div class="error">{{ $message }}</div> @enderror
+                    <textarea name="home_Olax_smart_content" id="home_Olax_smart_content" class="form-control">{!! $homepagecontent['home_Olax_smart_content']['value'] ?? '' !!}</textarea>
+                     @error('home_Olax_smart_content') <div class="error">{{ $message }}</div> @enderror
                   </div>
                 </div>
                 <div class="form-group row">
                   <div class="col-md-12">
-                    <label>Solax Smart Video <span style="color: red;">*</span>
+                    <label>Olax Smart Video <span style="color: red;">*</span>
                     </label>
-                    <input type="file" class="form-control" name="home_solax_smart_video" id="home_solax_smart_video"> @error('home_solax_smart_video') <div class="error">{{ $message }}</div> @enderror <div class="card">
-                      <input type="hidden" name="home_solax_smart_video_old" id="home_solax_smart_video_old" value="{{ $homepagecontent['home_solax_smart_video']['value'] ?? '' }}">
+                    <input type="file" class="form-control" name="home_Olax_smart_video" id="home_Olax_smart_video"> @error('home_Olax_smart_video') <div class="error">{{ $message }}</div> @enderror <div class="card">
+                      <input type="hidden" name="home_Olax_smart_video_old" id="home_Olax_smart_video_old" value="{{ $homepagecontent['home_Olax_smart_video']['value'] ?? '' }}">
                       <video class="card-img-top img-fluid" controls>
-                        <source src="/assets/videos/compressed/{{ $homepagecontent['home_solax_smart_video']['value'] ?? '' }}" type="video/mp4">
+                        <source src="/assets/videos/compressed/{{ $homepagecontent['home_Olax_smart_video']['value'] ?? '' }}" type="video/mp4">
                       </video>
                     </div>
                   </div>

@@ -301,7 +301,7 @@ if ($errors->any() && !$errors->hasAny(['address', 'firstname', 'lastname', 'ema
                             Free Consultation
                         </h2>
                         <p class="font-secondary text-primary-black font-medium">
-                            Schedule a 30 minute online consultation with a SolaX Expert
+                            Schedule a 30 minute online consultation with a Olax Expert
                         </p>
                     </div>
 

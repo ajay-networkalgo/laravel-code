@@ -30,9 +30,9 @@
         class="default_container max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div class="flex flex-col lg:flex-row gap-10 md:gap-[90px]">
             <div class="lg:w-[50%] flex flex-col gap-10 relative lg:sticky top-[10%] h-full">
-                <img class="lazyload" data-src="{{ asset('/assets/A1Hybrid/solax.webp') }}" alt="">
+                <img class="lazyload" data-src="{{ asset('/assets/A1Hybrid/Olax.webp') }}" alt="">
                 <div class="">
-                    <img data-src="{{ asset('/assets/A1Hybrid/solax.webp') }}" class="object-cover border border-[#EEBB0C] w-[190px] h-[120px] lazyload" alt="">
+                    <img data-src="{{ asset('/assets/A1Hybrid/Olax.webp') }}" class="object-cover border border-[#EEBB0C] w-[190px] h-[120px] lazyload" alt="">
                 </div>
             </div>
             <div class="flex flex-col gap-10 md:gap-[77px] overflow-y-scroll">

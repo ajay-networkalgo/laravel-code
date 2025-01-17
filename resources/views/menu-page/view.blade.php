@@ -22,28 +22,28 @@
                 <div class="form-group row">
                 <div class="col-md-4">
                     <label>Menu Section:</label>
-                    <select name="solax_menu_section" id="solax_menu_section" class="form-control">
-                    <option value="" <?= $menu->solax_menu_section == "" ? "selected" : "" ?>>--Select--</option>
-                    <option value="Header" <?= $menu->solax_menu_section == "Header" ? "selected" : "" ?>>Header</option>
-                    <option value="Footer" <?= $menu->solax_menu_section == "Footer" ? "selected" : "" ?>>Footer</option>
-                    <option value="Company" <?= $menu->solax_menu_section == "Company" ? "selected" : "" ?>>Company</option>
-                    <option value="Services" <?= $menu->solax_menu_section == "Services" ? "selected" : "" ?>>Services</option>
+                    <select name="Olax_menu_section" id="Olax_menu_section" class="form-control">
+                    <option value="" <?= $menu->Olax_menu_section == "" ? "selected" : "" ?>>--Select--</option>
+                    <option value="Header" <?= $menu->Olax_menu_section == "Header" ? "selected" : "" ?>>Header</option>
+                    <option value="Footer" <?= $menu->Olax_menu_section == "Footer" ? "selected" : "" ?>>Footer</option>
+                    <option value="Company" <?= $menu->Olax_menu_section == "Company" ? "selected" : "" ?>>Company</option>
+                    <option value="Services" <?= $menu->Olax_menu_section == "Services" ? "selected" : "" ?>>Services</option>
                 </select>
 
-                    @error('solax_menu_section')
+                    @error('Olax_menu_section')
                       <div class="error">{{ $message }}</div>
                     @enderror
                   </div>
                 <div class="col-md-4">
                     <label>name<span style="color: red;">*</span></label>
-                    <input type="text" class="form-control" name="solax_menu_name" id="solax_menu_name" placeholder="Enter name" value="{{ old('name', $menu->solax_menu_name) }}">
-                    @error('solax_menu_name')
+                    <input type="text" class="form-control" name="Olax_menu_name" id="Olax_menu_name" placeholder="Enter name" value="{{ old('name', $menu->Olax_menu_name) }}">
+                    @error('Olax_menu_name')
                       <div class="error">{{ $message }}</div>
                     @enderror
                   </div>
                   <div class="col-md-4">
                     <label>Url<span style="color: red;">*</span></label>
-                    <input type="text" class="form-control" name="solax_menu_url" id="solax_menu_url" placeholder="Enter url" value="{{ old('name', $menu->solax_menu_url) }}">
+                    <input type="text" class="form-control" name="Olax_menu_url" id="Olax_menu_url" placeholder="Enter url" value="{{ old('name', $menu->Olax_menu_url) }}">
                     @error('name')
                       <div class="error">{{ $message }}</div>
                     @enderror

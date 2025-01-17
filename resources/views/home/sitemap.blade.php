@@ -32,7 +32,7 @@
                         <div class="w-[24px]">
                             <img class="w-full" src="{{ asset('/assets/CheckCircle.svg') }}" alt="home battery for solar panels" />
                         </div>
-                        <a href="{{ env('SITE_URL') }}about" class="font-primary text-lg text-[#EF6818] font-medium uppercase">About Solax</a>
+                        <a href="{{ env('SITE_URL') }}about" class="font-primary text-lg text-[#EF6818] font-medium uppercase">About Olax</a>
                     </li>
                     <li class="flex gap-3 items-center">
                         <div class="w-[24px]">
@@ -146,19 +146,19 @@
                         <div class="w-[24px]">
                             <img class="w-full" src="{{ asset('/assets/CheckCircle.svg') }}" alt="home battery for solar panels" />
                         </div>
-                        <a href="https://www.solaxcloud.com/#/warranty" class="font-primary text-lg text-[#EF6818] font-medium uppercase">Warranty Registration</a>
+                        <a href="https://www.Olaxcloud.com/#/warranty" class="font-primary text-lg text-[#EF6818] font-medium uppercase">Warranty Registration</a>
                     </li>
                     <li class="flex gap-3 items-center">
                         <div class="w-[24px]">
                             <img class="w-full" src="{{ asset('/assets/CheckCircle.svg') }}" alt="home battery for solar panels" />
                         </div>
-                        <a href="https://www.solaxcloud.com/#/login" class="font-primary text-lg text-[#EF6818] font-medium uppercase">SolaX Cloud</a>
+                        <a href="https://www.Olaxcloud.com/#/login" class="font-primary text-lg text-[#EF6818] font-medium uppercase">Olax Cloud</a>
                     </li>
                     <li class="flex gap-3 items-center">
                         <div class="w-[24px]">
                             <img class="w-full" src="{{ asset('/assets/CheckCircle.svg') }}" alt="home battery for solar panels" />
                         </div>
-                        <a href="https://kb.solaxpower.com/support" class="font-primary text-lg text-[#EF6818] font-medium uppercase">Support</a>
+                        <a href="https://kb.Olaxpower.com/support" class="font-primary text-lg text-[#EF6818] font-medium uppercase">Support</a>
                     </li>
                 </ul>
                 <ul class="space-y-4">

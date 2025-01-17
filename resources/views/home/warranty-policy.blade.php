@@ -41,7 +41,7 @@
               </thead>
               <tbody>
                 <tr>
-                  <td class="font-secondary text-primary-black pr-5 "><a href="{{ asset('assets/warranty/2024-US-Warranty-Terms-Conditions.pdf') }}" target="_blank">SolaX Warranty Terms & Conditions - Global-2024</a></td>
+                  <td class="font-secondary text-primary-black pr-5 "><a href="{{ asset('assets/warranty/2024-US-Warranty-Terms-Conditions.pdf') }}" target="_blank">Olax Warranty Terms & Conditions - Global-2024</a></td>
                   <td class="font-secondary text-primary-black pr-5">English</td>
                   <td class="font-secondary text-primary-black pr-5">PDF</td>
                   <td class="font-secondary text-primary-black pr-5">978KB</td>

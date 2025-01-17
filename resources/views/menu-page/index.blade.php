@@ -99,9 +99,9 @@ $(document).ready(function(){
     ajax: "{{ route('menu.index') }}",
     columns: [
       {data: 'DT_RowIndex', name: 'DT_RowIndex',orderable: false, searchable: false},
-      {data: 'solax_menu_section', name: 'solax_menu_section',orderable: false},
-      {data: 'solax_menu_name', name: 'solax_menu_name',orderable: false},
-      {data: 'solax_menu_url', name: 'solax_menu_url',orderable: false},
+      {data: 'Olax_menu_section', name: 'Olax_menu_section',orderable: false},
+      {data: 'Olax_menu_name', name: 'Olax_menu_name',orderable: false},
+      {data: 'Olax_menu_url', name: 'Olax_menu_url',orderable: false},
       {data: 'status', name: 'status',orderable: false, searchable: false,render:function(data){
         var status_id = data.split("_");
         var status = status_id[0];

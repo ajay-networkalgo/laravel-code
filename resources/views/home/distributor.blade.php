@@ -11,7 +11,7 @@
                 </h1>
                 <p
                     class="font-secondary font-medium text-lg lg:text-xl text-primary-white text-center lg:max-w-[56%]">
-                    Reliable service and product support to SolaX customers
+                    Reliable service and product support to Olax customers
                 </p>
             </div>
         </div>

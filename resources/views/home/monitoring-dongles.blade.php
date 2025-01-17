@@ -141,7 +141,7 @@
                     <div id="pv-inverter" class="tab-content active">
                         <div class="flex flex-col items-center justify-center gap-[60px]">
                             <p class="font-secondary lg:text-[24px] text-lg leading-[31px] text-primary-black text-center lg:w-[60%]">
-                                Harness the power of WiFi with our Pocket WiFi dongle, connect to a local network within 50m of the installation to enable access to the SolaX Cloud monitoring platform.
+                                Harness the power of WiFi with our Pocket WiFi dongle, connect to a local network within 50m of the installation to enable access to the Olax Cloud monitoring platform.
                             </p>
                             <ul class="list-none flex flex-col md:flex-row md:items-center gap-6 md:gap-20 lg:w-[70%] mx-auto">
                                 <div class=" flex flex-col gap-6 md:w-[50%]">
@@ -234,7 +234,7 @@
                     <div id="ev-charger" class="tab-content">
                         <div class="flex flex-col items-center justify-center gap-[60px]">
                             <p class="font-secondary lg:text-[24px] text-lg leading-[31px] text-primary-black text-center lg:w-[60%]">
-                                No network? No problem, our SolaX Pocket 4G dongle allows you to use a 4G connection to monitor your system without the option of connecting to a local network. (This product is not available in the UK)
+                                No network? No problem, our Olax Pocket 4G dongle allows you to use a 4G connection to monitor your system without the option of connecting to a local network. (This product is not available in the UK)
                             </p>
                             <ul class="list-none flex flex-col md:flex-row md:items-center gap-6 md:gap-20 lg:w-[70%] mx-auto">
                                 <div class=" flex flex-col gap-6 md:w-[50%]">
@@ -297,7 +297,7 @@
                     class="font-primary text-base md:text-lg text-primary-orange font-medium text-center uppercase">Working with DataHub 1000</span>
                 <h2
                     class="font-primary text-[24px] md:text-4xl lg:text-6xl lg:leading-[70px] text-primary-white font-medium text-center">
-                    SolaX Cloud Intelligent Monitoring
+                    Olax Cloud Intelligent Monitoring
                 </h2>
             </div>
 
@@ -312,12 +312,12 @@
 
                             <div class="flex flex-col gap-5">
                                 <span
-                                    class="font-secondary text-base md:text-lg leading-[21px] text-[#F5F5F5]">Whether it’s for residential systems or commercial PV systems, centralized management and monitoring of PV systems saves time and money. With the SolaX Cloud, PV system operators and installers can always view key and up to date data.
+                                    class="font-secondary text-base md:text-lg leading-[21px] text-[#F5F5F5]">Whether it’s for residential systems or commercial PV systems, centralized management and monitoring of PV systems saves time and money. With the Olax Cloud, PV system operators and installers can always view key and up to date data.
 
                                 </span>
                                 <span
                                     class="font-secondary text-base md:text-lg leading-[21px] text-[#F5F5F5]">
-                                    Designed with the end-user and also the installers in mind, the SolaX Cloud is the perfect real-time monitoring solution. Control systems through the cloud and perform key inverter maintenance and updates from anywhere in the world.</span>
+                                    Designed with the end-user and also the installers in mind, the Olax Cloud is the perfect real-time monitoring solution. Control systems through the cloud and perform key inverter maintenance and updates from anywhere in the world.</span>
                             </div>
 
                             <ul class="list-none flex flex-col gap-6">

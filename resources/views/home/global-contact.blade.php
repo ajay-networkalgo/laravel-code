@@ -5,7 +5,7 @@
         <div class="flex flex-col gap-10 lg:gap-24">
             <div class="hero-content-top flex flex-col items-center gap-4">
                 <h1 class="font-primary font-medium text-primary-black text-[42px] leading-[48px] sm:text-[52px] sm:leading-[58px] lg:text-[72px] lg:leading-[80px] xl:text-[80px] xl:leading-[88px] drop-shadow-2xl">Get in Touch</h1>
-                <p class="font-secondary font-medium text-lg lg:text-xl text-primary-black">SolaX Team is here for you</p>
+                <p class="font-secondary font-medium text-lg lg:text-xl text-primary-black">Olax Team is here for you</p>
             </div>
             <div>
                 <ul class="accordion flex flex-col gap-5">

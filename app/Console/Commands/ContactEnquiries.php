@@ -74,7 +74,7 @@ class ContactEnquiries extends Command
                             'locationId' => $this->locationId,
                             'phone' => $enq->phone_number,
                             'country' => $enq->country,
-                            'source' => 'Solax Power US leads - ' . $enq->enquiry_type,
+                            'source' => 'Olax Power US leads - ' . $enq->enquiry_type,
                             'customFields' => [
                                 [
                                     'id' => $enq->id . time(),

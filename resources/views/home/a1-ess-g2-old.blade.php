@@ -93,7 +93,7 @@ class="default_container max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w
             <li>Smart load management</li>
             <li>Micro-grid ready, supporting real-time power balance</li>
             <li>Support multiple power distribution solutions (Partial or Whole Home)</li>
-            <li>VPP ready, SolaX cloud support resource aggregator (IEEE 2030.5, OpenADR)</li>
+            <li>VPP ready, Olax cloud support resource aggregator (IEEE 2030.5, OpenADR)</li>
             </div>
         </ul>
 

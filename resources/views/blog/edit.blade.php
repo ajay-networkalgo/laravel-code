@@ -38,7 +38,7 @@
                     <label>Type<span style="color: red;">*</span></label>
                     <select class="form-control" id="type" name="type">
                       <option value="">Select Type</option>
-                      <option value="1" {{ old('type', $blog->type) == 1 ? 'selected' : '' }}>SolaX Accessories</option>
+                      <option value="1" {{ old('type', $blog->type) == 1 ? 'selected' : '' }}>Olax Accessories</option>
                       <option value="2" {{ old('type', $blog->type) == 2 ? 'selected' : '' }}>Installers</option>
                       <option value="3" {{ old('type', $blog->type) == 3 ? 'selected' : '' }}>Homeowners</option>
                       <option value="4" {{ old('type', $blog->type) == 4 ? 'selected' : '' }}>Innovation</option>

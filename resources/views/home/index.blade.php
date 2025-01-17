@@ -107,7 +107,7 @@
                             </h3>
                             <p
                                 class="font-secondary font-medium text-primary-white text-center max-w-[80%] lg:max-w-[45%]">
-                                Discover Energy Freedom with SolaX Home Power Solutions
+                                Discover Energy Freedom with Olax Home Power Solutions
                             </p>
                         </div>
 
@@ -142,7 +142,7 @@
                             </h3>
                             <p
                                 class="font-secondary font-medium text-primary-white text-center max-w-[80%] lg:max-w-[42%]">
-                                Empower Your Business with the SolaX Certified Partner
+                                Empower Your Business with the Olax Certified Partner
                                 Program
                             </p>
                         </div>
@@ -234,7 +234,7 @@
                                         class="font-primary text-sm text-primary-yellow font-semibold">1 of 3</span>
                                     <h3
                                         class="font-primary text-primary-white text-3xl font-medium">
-                                        Benefits to Homeowners with SolaX's Advanced Features:
+                                        Benefits to Homeowners with Olax's Advanced Features:
 
                                     </h3>
                                 </div>
@@ -320,7 +320,7 @@
                                         <div class="max-w-[90%]">
                                             <p class="font-secondary text-primary-white">
                                                 <!-- <span class="font-bold">200% Oversizing:</span> -->
-                                                SolaX Energy Storage systems are designed to provide homeowners with the ability to manage and optimize their energy usage efficiently. By storing excess energy generated during off-peak hours, SolaX systems allow you to utilize this stored energy during peak pricing periods, significantly reducing your reliance on the grid when electricity rates are highest.
+                                                Olax Energy Storage systems are designed to provide homeowners with the ability to manage and optimize their energy usage efficiently. By storing excess energy generated during off-peak hours, Olax systems allow you to utilize this stored energy during peak pricing periods, significantly reducing your reliance on the grid when electricity rates are highest.
                                             </p>
                                         </div>
                                     </li>
@@ -460,15 +460,15 @@
             <div class="flex flex-col gap-6">
                 <div class="flex flex-col gap-4">
                     <span
-                        class="font-primary text-lg text-primary-orange font-medium">{{ $homepagecontent['home_solax_smart_title']['value'] ?? '' }}</span>
+                        class="font-primary text-lg text-primary-orange font-medium">{{ $homepagecontent['home_Olax_smart_title']['value'] ?? '' }}</span>
                     <h2
                         class="font-primary text-4xl lg:text-6xl lg:leading-[70px] text-primary-white font-medium">
-                        {{ $homepagecontent['home_solax_smart_sub_title']['value'] ?? '' }}
+                        {{ $homepagecontent['home_Olax_smart_sub_title']['value'] ?? '' }}
                     </h2>
                 </div>
                 <div>
                     <p class="font-secondary text-primary-white lg:max-w-[90%]">
-                    {{ $homepagecontent['home_solax_smart_content']['value'] ?? '' }}
+                    {{ $homepagecontent['home_Olax_smart_content']['value'] ?? '' }}
                     </p>
                 </div>
             </div>
@@ -481,7 +481,7 @@
                     id="bg-video"
                     poster=""
                     class="object-cover lazyload">
-                    <source data-src="{{ asset('/assets/videos/compressed/' . $homepagecontent['home_solax_smart_video']['value'] ?? '') }}" type="video/mp4" />
+                    <source data-src="{{ asset('/assets/videos/compressed/' . $homepagecontent['home_Olax_smart_video']['value'] ?? '') }}" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -515,14 +515,14 @@
                         <li>
                             <div class="text-white gap-4">
                                 <h1 class="text-4xl font-semibold text-left mb-6">
-                                    Empowering a Brighter Tomorrow with SolaX Power Whole Home Battery Backup
+                                    Empowering a Brighter Tomorrow with Olax Power Whole Home Battery Backup
                                 </h1>
                                 <p class="font-secondary text-primary-white">
                                     Choosing solar power can help reduce earth’s carbon footprint and contribute to lowering energy bills, potentially improving property value and creating a more sustainable future.
-                                    With SolaX Power, you can readily unlock a sustainable future through our exclusive and innovative solar energy solutions. Choosing solar power can help reduce earth’s carbon footprint and contribute to lowering energy bills, potentially improving property value and creating a more sustainable future. SolaX Power offers exclusive solar solutions like <strong class="font-semibold">solar battery installation</strong>, solar system design, consultation services, <strong class="font-semibold">backup battery installation</strong>, maintenance and repair facilities, and more.
+                                    With Olax Power, you can readily unlock a sustainable future through our exclusive and innovative solar energy solutions. Choosing solar power can help reduce earth’s carbon footprint and contribute to lowering energy bills, potentially improving property value and creating a more sustainable future. Olax Power offers exclusive solar solutions like <strong class="font-semibold">solar battery installation</strong>, solar system design, consultation services, <strong class="font-semibold">backup battery installation</strong>, maintenance and repair facilities, and more.
                                 </p>
                                 <p class="font-secondary text-primary-white lg:max-w-[90%]">
-                                    We are a trusted partner in harnessing renewable energy to light up your house sustainably. Our SolaX Power team is dedicated to improving lives worldwide by embracing sustainable energy solutions at comprehensive pricing. From <strong class="font-semibold">home batteries for solar panels</strong> to other solar accessories, we offer comprehensive warranties and guarantees to provide confidence and peace of mind.
+                                    We are a trusted partner in harnessing renewable energy to light up your house sustainably. Our Olax Power team is dedicated to improving lives worldwide by embracing sustainable energy solutions at comprehensive pricing. From <strong class="font-semibold">home batteries for solar panels</strong> to other solar accessories, we offer comprehensive warranties and guarantees to provide confidence and peace of mind.
                                 </p>
                                 <br />
                                 <h2 class="text-3xl font-semibold important-mt-8 mb-6">
@@ -629,11 +629,11 @@
                                 </ul>
                                 <br />
                                 <h2 class="text-3xl font-semibold mt-12 mb-6">
-                                    Join the Solar Revolution with SolaX Power Battery Backup for Home
+                                    Join the Solar Revolution with Olax Power Battery Backup for Home
                                 </h2>
                                 <div class="text-lg leading-relaxed space-y-6">
-                                    <p class="font-secondary text-primary-white">With experienced installers, certified products, competitive pricing, and exceptional customer service, SolaX Power is your go-to partner for sustainable energy solutions.</p>
-                                    <p class="font-secondary text-primary-white">To get started, call us at <a href="tel:8778999937" class="text-green-400 hover:underline">877-899-9937</a>, email us at <a href="mailto:info@solaxpower.com" class="text-green-400 hover:underline">info@solaxpower.com</a>, or <a href="mailto:service.us@solaxpower.com" class="text-green-400 hover:underline">service.us@solaxpower.com</a>. Join our newsletter for exclusive updates and offers!</p>
+                                    <p class="font-secondary text-primary-white">With experienced installers, certified products, competitive pricing, and exceptional customer service, Olax Power is your go-to partner for sustainable energy solutions.</p>
+                                    <p class="font-secondary text-primary-white">To get started, call us at <a href="tel:8778999937" class="text-green-400 hover:underline">877-899-9937</a>, email us at <a href="mailto:info@Olaxpower.com" class="text-green-400 hover:underline">info@Olaxpower.com</a>, or <a href="mailto:service.us@Olaxpower.com" class="text-green-400 hover:underline">service.us@Olaxpower.com</a>. Join our newsletter for exclusive updates and offers!</p>
                                 </div>
                             </div>
                         </li>

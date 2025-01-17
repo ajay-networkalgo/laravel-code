@@ -49,7 +49,7 @@
                     <li>
                         <a
                             class="bg-[#C8C8C84D] w-10 h-10 rounded-full border border-[#C8C8C8] flex justify-center items-center"
-                            href="https://www.instagram.com/solaxpowerglobal/sharer.php?u={{ env('SITE_URL').'events/'.$events->slug}}" target="_blank">
+                            href="https://www.instagram.com/Olaxpowerglobal/sharer.php?u={{ env('SITE_URL').'events/'.$events->slug}}" target="_blank">
                             <img src="{{ asset('assets/events/instagram.svg') }}" alt="inner_icon" />
                         </a>
                     </li>

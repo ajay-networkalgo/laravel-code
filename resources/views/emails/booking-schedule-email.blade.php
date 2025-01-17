@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solax Power Appointment Confirmation</title>
+    <title>Olax Power Appointment Confirmation</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -69,12 +69,12 @@
 <body>
     <div class="container">
         <div class="header">
-            <img src="{{ asset('/assets/Solax_Logo.svg') }}" alt="Solax Power">
+            <img src="{{ asset('/assets/Olax_Logo.svg') }}" alt="Olax Power">
         </div>
         <div class="content">
             <h1>Thank You for Booking an Appointment!</h1>
             <p>Dear {{$customerName}},</p>
-            <p>Thank you for scheduling an appointment with SolaX Power. We’re excited to help you with your SolaX Power needs and look forward to meeting with you.</p>
+            <p>Thank you for scheduling an appointment with Olax Power. We’re excited to help you with your Olax Power needs and look forward to meeting with you.</p>
             <div class="appointment-details">
                 <h2>Appointment Details</h2>
                 @php
@@ -88,8 +88,8 @@
         </div>
         <div class="footer">
             <p>Best Regards,</p>
-            <p>The Solax Power Team</p>
-            <p><a href="{{env('APP_URL')}}">www.solaxpower.us</a></p>
+            <p>The Olax Power Team</p>
+            <p><a href="{{env('APP_URL')}}">www.Olaxpower.us</a></p>
         </div>
     </div>
 </body>

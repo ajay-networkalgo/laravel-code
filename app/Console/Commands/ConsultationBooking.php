@@ -72,10 +72,10 @@ class ConsultationBooking extends Command
                             'phone' => $enq->phone,
                             'address1'     => $enq->address,
                             'locationId' => $this->locationId,
-                            'source' => 'SolaX Power US - Consultation Booking',
+                            'source' => 'Olax Power US - Consultation Booking',
                             'timezone' => $enq->timezone,
                             'tags' => [
-                                "'SolaX Power US - Consultation Booking'"
+                                "'Olax Power US - Consultation Booking'"
                             ],
                             'customFields' => [
                                 [

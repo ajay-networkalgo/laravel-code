@@ -177,7 +177,7 @@ $routeName = Route::currentRouteName();
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
-    <title>SolaX Power</title>
+    <title>Olax Power</title>
 </head>
 
 <body class="bg-primary-black">
@@ -307,7 +307,7 @@ $routeName = Route::currentRouteName();
         });
     </script>
     <script defer id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=f7bf511e-8297-49fa-8619-603824a0e8be"> </script>
-    <!-- End of solaxpowerservice Zendesk Widget script -->
+    <!-- End of Olaxpowerservice Zendesk Widget script -->
 
     <script>
         if (document.getElementById('country') != null) {

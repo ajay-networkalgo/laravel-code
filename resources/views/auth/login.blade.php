@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="{{ asset('/assets/favicon.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SolaX Power USA</title>
+    <title>Olax Power USA</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -31,8 +31,8 @@
         <!-- /.login-logo -->
         <div class="card card-outline card-secondary">
             <div class="card-header text-center">
-                <!-- <h1><b>SolaX Power USA</b></h1> -->
-                <img src="{{ asset('/assets/Solax_Logo.svg') }}" alt="Solax Power" />
+                <!-- <h1><b>Olax Power USA</b></h1> -->
+                <img src="{{ asset('/assets/Olax_Logo.svg') }}" alt="Olax Power" />
             </div>
             <div class="card-body">
                 <!-- <p class="login-box-msg">Sign in to start your session</p> -->

@@ -39,7 +39,7 @@
         <div class="default_container max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
             <div class="hero-content h-screen flex flex-col items-center gap-6 pt-20 pb-24 justify-end">
                 <div class="hero-content-top flex flex-col items-center gap-4">
-                    <span class="font-primary text-lg text-primary-yellow font-medium uppercase">SolaX Power</span>
+                    <span class="font-primary text-lg text-primary-yellow font-medium uppercase">Olax Power</span>
                     <h1 class="font-primary text-primary-white text-[42px] leading-[48px] sm:text-[52px] sm:leading-[58px] lg:text-[72px] lg:leading-[80px] xl:text-[80px] xl:leading-[88px] text-center">EVENTS</h1>
                 </div>
                 <div

@@ -198,7 +198,7 @@
                     class="font-primary text-base md:text-lg text-primary-orange font-medium text-center uppercase">features</span>
                 <h2
                     class="font-primary text-[24px] md:text-4xl lg:text-6xl lg:leading-[70px] text-primary-white font-medium text-center">
-                    Why SolaX Products
+                    Why Olax Products
                 </h2>
             </div>
 
@@ -210,7 +210,7 @@
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
                         <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">High Efficiency</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            SolaX Power Energy Storage Inverters have high efficiency and can convert a large amount of DC power into AC power for use in homes or businesses.
+                            Olax Power Energy Storage Inverters have high efficiency and can convert a large amount of DC power into AC power for use in homes or businesses.
                         </span>
                     </div>
                 </div>
@@ -221,7 +221,7 @@
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
                         <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">Reliable Performance</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            SolaX Power Energy Storage Inverters are known for their reliable performance and can deliver consistent power output in different weather conditions.
+                            Olax Power Energy Storage Inverters are known for their reliable performance and can deliver consistent power output in different weather conditions.
                         </span>
                     </div>
                 </div>
@@ -232,7 +232,7 @@
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
                         <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">Easy Installation</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            SolaX Power Energy Storage Inverters are designed for easy installation and can be mounted on any wall or installed in a garage or utility room.
+                            Olax Power Energy Storage Inverters are designed for easy installation and can be mounted on any wall or installed in a garage or utility room.
                         </span>
                     </div>
                 </div>
@@ -243,7 +243,7 @@
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
                         <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">Multiple Modes</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            SolaX Power Energy Storage Inverters offer multiple modes of operation, including Grid-tie, Grid-tie with battery backup, and Off-grid modes, giving customers flexibility and options.
+                            Olax Power Energy Storage Inverters offer multiple modes of operation, including Grid-tie, Grid-tie with battery backup, and Off-grid modes, giving customers flexibility and options.
                         </span>
                     </div>
                 </div>
@@ -254,7 +254,7 @@
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
                         <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">Affordable Prices</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            SolaX Power Energy Storage Inverters are priced competitively, making them an affordable option for customers looking to invest in renewable energy.
+                            Olax Power Energy Storage Inverters are priced competitively, making them an affordable option for customers looking to invest in renewable energy.
                         </span>
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                     class="font-primary text-base md:text-lg text-primary-orange font-medium text-center uppercase">features</span>
                 <h2
                     class="font-primary text-[24px] md:text-4xl lg:text-6xl lg:leading-[70px] text-primary-white font-medium text-center">
-                    Why SolaX Products
+                    Why Olax Products
                 </h2>
             </div>
 
@@ -286,7 +286,7 @@
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
                         <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">High Capacity</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            SolaX solar batteries have a high storage capacity, with options ranging from 3.3kWh to 17.6kWh. This allows for long-term storage of solar energy and can help reduce dependency on grid power.
+                            Olax solar batteries have a high storage capacity, with options ranging from 3.3kWh to 17.6kWh. This allows for long-term storage of solar energy and can help reduce dependency on grid power.
                         </span>
                     </div>
                 </div>
@@ -297,7 +297,7 @@
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
                         <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">Advanced Technology</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            SolaX Power uses advanced battery technology, such as Lithium-ion phosphate batteries, which provide high energy density and long-lasting performance. The SolaX batteries also have advanced battery management systems that protect them from overcharging or discharging, ensuring long life.
+                            Olax Power uses advanced battery technology, such as Lithium-ion phosphate batteries, which provide high energy density and long-lasting performance. The Olax batteries also have advanced battery management systems that protect them from overcharging or discharging, ensuring long life.
                         </span>
                     </div>
                 </div>
@@ -308,7 +308,7 @@
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
                         <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">Expandable</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            The SolaX Power energy storage system is modular and expandable, allowing customers to add additional batteries as their energy storage needs grow over time.
+                            The Olax Power energy storage system is modular and expandable, allowing customers to add additional batteries as their energy storage needs grow over time.
                         </span>
                     </div>
                 </div>
@@ -319,7 +319,7 @@
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
                         <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">User-Friendly</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            SolaX Power energy storage systems come with user-friendly software that allows for easy monitoring and control of energy usage. Customers can view data and receive notifications via their mobile phone, tablet, or personal computer.
+                            Olax Power energy storage systems come with user-friendly software that allows for easy monitoring and control of energy usage. Customers can view data and receive notifications via their mobile phone, tablet, or personal computer.
                         </span>
                     </div>
                 </div>
@@ -339,7 +339,7 @@
                     class="font-primary text-base md:text-lg text-primary-orange font-medium text-center uppercase">features</span>
                 <h2
                     class="font-primary text-[24px] md:text-4xl lg:text-6xl lg:leading-[70px] text-primary-white font-medium text-center">
-                    Why SolaX Products
+                    Why Olax Products
                 </h2>
             </div>
 
@@ -349,9 +349,9 @@
                         <img class="w-full h-auto object-cover lazyload" data-src="{{ asset('/assets/ourProduct/cardone.png') }}" alt="battery storage for house" />
                     </div>
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
-                        <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">SolaX Power Accessories Stand</span>
+                        <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">Olax Power Accessories Stand</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            SolaX Power accessories stand out because they are designed to enhance the performance of their solar power systems. They offer real-time monitoring and control, which allows homeowners to optimize their energy usage and maximize their savings.
+                            Olax Power accessories stand out because they are designed to enhance the performance of their solar power systems. They offer real-time monitoring and control, which allows homeowners to optimize their energy usage and maximize their savings.
                         </span>
                     </div>
                 </div>
@@ -362,7 +362,7 @@
                     <div class="p-6 flex flex-col flex-grow justify-between gap-4 border-x border-b border-[#C8C8C83D]">
                         <span class="font-secondary text-[20px] leading-[24px] text-[#EEBB0C]">Additionally</span>
                         <span class="font-secondary text-base leading-[24px] text-primary-white">
-                            Additionally, the accessories are easy to install and use, making them accessible to a wide range of customers. SolaX Power also offers excellent customer support and warranties for their accessories, ensuring a reliable and hassle-free experience for their customers.
+                            Additionally, the accessories are easy to install and use, making them accessible to a wide range of customers. Olax Power also offers excellent customer support and warranties for their accessories, ensuring a reliable and hassle-free experience for their customers.
                         </span>
                     </div>
                 </div>

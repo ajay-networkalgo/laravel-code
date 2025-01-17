@@ -5,7 +5,7 @@
       	<div class="container-fluid">
         	<div class="row mb-2">
           		<div class="col-sm-12">
-            		<h1 style="text-align:center;margin-top:20%;font-size:50px">Welcome to the <br/>SolaX Power USA<br/> Admin Panel</h1>
+            		<h1 style="text-align:center;margin-top:20%;font-size:50px">Welcome to the <br/>Olax Power USA<br/> Admin Panel</h1>
           		</div>
         	</div>
       	</div>

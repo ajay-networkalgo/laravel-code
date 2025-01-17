@@ -23,14 +23,14 @@ class MenuController extends Controller
                 $menulist = Menu::where('is_deleted',0)->orderBy('id', 'DESC')->get();
                 return Datatables::of($menulist)
                     ->addIndexColumn()
-                    ->editColumn('solax_menu_section', function ($row) {
-                        return $row->solax_menu_section;
+                    ->editColumn('Olax_menu_section', function ($row) {
+                        return $row->Olax_menu_section;
                     })
-                    ->editColumn('solax_menu_name', function ($row) {
-                        return $row->solax_menu_name;
+                    ->editColumn('Olax_menu_name', function ($row) {
+                        return $row->Olax_menu_name;
                     })
-                    ->editColumn('solax_menu_url', function ($row) {
-                        return $row->solax_menu_url;
+                    ->editColumn('Olax_menu_url', function ($row) {
+                        return $row->Olax_menu_url;
                     })
                     ->editColumn('status', function($row) {
                         $id = $row->id;
@@ -79,18 +79,18 @@ class MenuController extends Controller
         try {
         $input = $request->all();
     	$validator = Validator::make($request->all(), [
-            'solax_menu_section' => 'required',
-            'solax_menu_name' => 'required',
-            'solax_menu_parent_id' => 'nullable|exists:menus,id',
-            'solax_menu_url' =>  'required',
+            'Olax_menu_section' => 'required',
+            'Olax_menu_name' => 'required',
+            'Olax_menu_parent_id' => 'nullable|exists:menus,id',
+            'Olax_menu_url' =>  'required',
         ]);
         if($validator->fails()) {
             return redirect('/admin/menu.add')->withErrors($validator)->withInput();
         }
         $menu = Menu::create([
-            'solax_menu_section' => $input['solax_menu_section'],
-            'solax_menu_name' => $input['solax_menu_name'],
-            'solax_menu_url' => $input['solax_menu_url'],
+            'Olax_menu_section' => $input['Olax_menu_section'],
+            'Olax_menu_name' => $input['Olax_menu_name'],
+            'Olax_menu_url' => $input['Olax_menu_url'],
             'is_active' => 1,
             'is_deleted' => 0
         ]);
@@ -170,18 +170,18 @@ class MenuController extends Controller
         try {
         $input = $request->all();
     	$validator = Validator::make($request->all(), [
-            'solax_menu_section' => 'required',
-            'solax_menu_name' => 'required',
-            'solax_menu_parent_id' => 'nullable|exists:menus,id',
-            'solax_menu_url' =>  'required',
+            'Olax_menu_section' => 'required',
+            'Olax_menu_name' => 'required',
+            'Olax_menu_parent_id' => 'nullable|exists:menus,id',
+            'Olax_menu_url' =>  'required',
         ]);
         if($validator->fails()) {
             return redirect()->back()->withErrors($validator)->withInput();
         }
             $menu = Menu::findOrFail($id);
-            $menu->solax_menu_section  = $request->input('solax_menu_section');
-            $menu->solax_menu_name  = $request->input('solax_menu_name');
-            $menu->solax_menu_url  = $request->input('solax_menu_url');
+            $menu->Olax_menu_section  = $request->input('Olax_menu_section');
+            $menu->Olax_menu_name  = $request->input('Olax_menu_name');
+            $menu->Olax_menu_url  = $request->input('Olax_menu_url');
             $menu->save();
             DB::commit();
             Session::flash('message','Menu has been Updated successfully.');

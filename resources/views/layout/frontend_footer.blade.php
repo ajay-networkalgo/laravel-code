@@ -8,7 +8,7 @@ $routeName = Route::currentRouteName();
         <div
             class="py-4 flex flex-col md:flex-row items-center justify-center gap-5">
             <div class="md:border-r border-[#C8C8C8] pr-5">
-                <span class="font-secondary text-[#C8C8C8]">Copyright 2024 @SolaX Power</span>
+                <span class="font-secondary text-[#C8C8C8]">Copyright 2024 @Olax Power</span>
             </div>
 
             <ul class="flex items-center gap-6">
@@ -39,7 +39,7 @@ $routeName = Route::currentRouteName();
                     <span class="font-primary text-primary-white text-base font-medium">Company</span>
                     <ul class="flex flex-col gap-4">
                         <li>
-                            <a href="{{ route('frontened.about.us') }}" class="font-secondary text-primary-grey">About Solax</a>
+                            <a href="{{ route('frontened.about.us') }}" class="font-secondary text-primary-grey">About Olax</a>
                         </li>
                         <li>
                             <a href="{{ route('news.frontened.index') }}" class="font-secondary text-primary-grey">News</a>
@@ -88,7 +88,7 @@ $routeName = Route::currentRouteName();
                             <a href="{{ route('frontened.warranty.policy') }}" class="font-secondary text-primary-grey">Warranty Policy</a>
                         </li>
                         <li>
-                            <a href="https://www.solaxcloud.com/#/warranty" class="font-secondary text-primary-grey">Warranty Registration</a>
+                            <a href="https://www.Olaxcloud.com/#/warranty" class="font-secondary text-primary-grey">Warranty Registration</a>
                         </li>
                     </ul>
                 </li>
@@ -96,10 +96,10 @@ $routeName = Route::currentRouteName();
                     <span class="font-primary text-primary-white text-base font-medium">Upgrade</span>
                     <ul class="flex flex-col gap-4">
                         <li>
-                            <a href="https://www.solaxcloud.com/#/login" class="font-secondary text-primary-grey">SolaX Cloud</a>
+                            <a href="https://www.Olaxcloud.com/#/login" class="font-secondary text-primary-grey">Olax Cloud</a>
                         </li>
                         <li>
-                            <a href="https://kb.solaxpower.com/support" class="font-secondary text-primary-grey">Support</a>
+                            <a href="https://kb.Olaxpower.com/support" class="font-secondary text-primary-grey">Support</a>
                         </li>
                     </ul>
                 </li>
@@ -110,27 +110,27 @@ $routeName = Route::currentRouteName();
             <div class="py-5 flex flex-col items-center gap-6 lg:flex-row lg:justify-between">
                 <ul class="flex items-center gap-5">
                     <li>
-                        <a href="https://www.facebook.com/solaxpowerus">
+                        <a href="https://www.facebook.com/Olaxpowerus">
                             <img class="lazyload" data-src="{{ asset('assets/fb.svg') }}" alt="fb" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/solaxpowerglobal">
+                        <a href="https://www.youtube.com/Olaxpowerglobal">
                             <img class="lazyload" data-src="{{ asset('assets/yt.svg') }}" alt="yt" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/company/solax-power-us">
+                        <a href="https://www.linkedin.com/company/Olax-power-us">
                             <img class="lazyload" data-src="{{ asset('assets/linkedin.svg') }}" alt="linkedin" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/solaxpower">
+                        <a href="https://twitter.com/Olaxpower">
                             <img class="lazyload" data-src="{{ asset('assets/twitter.svg') }}" alt="twitter" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/solaxpowerglobal">
+                        <a href="https://www.instagram.com/Olaxpowerglobal">
                             <img class="lazyload" data-src="{{ asset('assets/instagram.svg') }}" alt="instagram" />
                         </a>
                     </li>
@@ -147,7 +147,7 @@ $routeName = Route::currentRouteName();
                     </li>
                 </ul>
                 <p class="font-secondary text-primary-grey">
-                    Copyright @SolaX Power
+                    Copyright @Olax Power
                 </p>
             </div>
         </div>
@@ -194,7 +194,7 @@ $routeName = Route::currentRouteName();
                         id="companySection"
                         class="flex flex-col gap-4 overflow-hidden max-h-0 transition-all duration-300 ease-in-out lg:max-h-full lg:flex">
                         <li>
-                            <a href="{{ route('frontened.about.us') }}" class="font-secondary text-primary-grey">About Solax</a>
+                            <a href="{{ route('frontened.about.us') }}" class="font-secondary text-primary-grey">About Olax</a>
                         </li>
                         <li>
                             <a href="{{ route('news.frontened.index') }}" class="font-secondary text-primary-grey">News</a>
@@ -285,7 +285,7 @@ $routeName = Route::currentRouteName();
                             <a href="{{ route('frontened.warranty.policy') }}" class="font-secondary text-primary-grey">Warranty Policy</a>
                         </li>
                         <li>
-                            <a href="https://www.solaxcloud.com/#/warranty" class="font-secondary text-primary-grey">Warranty Registration</a>
+                            <a href="https://www.Olaxcloud.com/#/warranty" class="font-secondary text-primary-grey">Warranty Registration</a>
                         </li>
                     </ul>
                 </li>
@@ -314,10 +314,10 @@ $routeName = Route::currentRouteName();
                         id="upgradeSection"
                         class="flex flex-col gap-4 overflow-hidden max-h-0 transition-all duration-300 ease-in-out lg:max-h-full lg:flex">
                         <li>
-                            <a href="https://www.solaxcloud.com/#/login" class="font-secondary text-primary-grey">SolaX Cloud</a>
+                            <a href="https://www.Olaxcloud.com/#/login" class="font-secondary text-primary-grey">Olax Cloud</a>
                         </li>
                         <li>
-                            <a href="https://kb.solaxpower.com/support" class="font-secondary text-primary-grey">Support</a>
+                            <a href="https://kb.Olaxpower.com/support" class="font-secondary text-primary-grey">Support</a>
                         </li>
                     </ul>
                 </li>
@@ -331,27 +331,27 @@ $routeName = Route::currentRouteName();
                 class="py-5 flex flex-col items-center gap-6 lg:flex-row lg:justify-between">
                 <ul class="flex items-center gap-5">
                     <li>
-                        <a href="https://www.facebook.com/solaxpowerus">
+                        <a href="https://www.facebook.com/Olaxpowerus">
                             <img class="lazyload" data-src="{{ asset('assets/fb.svg') }}" alt="fb" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/solaxpowerglobal">
+                        <a href="https://www.youtube.com/Olaxpowerglobal">
                             <img class="lazyload" data-src="{{ asset('assets/yt.svg') }}" alt="yt" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/company/solax-power-us">
+                        <a href="https://www.linkedin.com/company/Olax-power-us">
                             <img class="lazyload" data-src="{{ asset('assets/linkedin.svg') }}" alt="linkedin" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/solaxpower">
+                        <a href="https://twitter.com/Olaxpower">
                             <img class="lazyload" data-src="{{ asset('assets/twitter.svg') }}" alt="twitter" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/solaxpowerglobal">
+                        <a href="https://www.instagram.com/Olaxpowerglobal">
                             <img class="lazyload" data-src="{{ asset('assets/instagram.svg') }}" alt="instagram" />
                         </a>
                     </li>
@@ -385,7 +385,7 @@ $routeName = Route::currentRouteName();
                 </ul>
 
                 <p class="font-secondary text-primary-grey">
-                    Copyright @SolaX Power
+                    Copyright @Olax Power
                 </p>
             </div>
         </div>

@@ -38,7 +38,7 @@
                     <label>Type<span style="color: red;">*</span></label>
                     <select class="form-control" id="type" name="type">
                       <option value="">Select Type</option>
-                      <option value="1" <?php echo (old('type') == 1) ? 'selected' : ''; ?>>SolaX Accessories</option>
+                      <option value="1" <?php echo (old('type') == 1) ? 'selected' : ''; ?>>Olax Accessories</option>
                       <option value="2" <?php echo (old('type') == 2) ? 'selected' : ''; ?>>Installers</option>
                       <option value="3" <?php echo (old('type') == 3) ? 'selected' : ''; ?>>Homeowners</option>
                       <option value="4" <?php echo (old('type') == 4) ? 'selected' : ''; ?>>Innovation</option>

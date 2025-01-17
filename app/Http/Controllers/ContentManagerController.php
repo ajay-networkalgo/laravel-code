@@ -51,9 +51,9 @@ class ContentManagerController extends Controller
             "home_powering_sub_title" => "required",
             "home_storm_happen_title" => "required",
             "home_storm_happen_content" => "required",
-            "home_solax_smart_title" => "required",
-            "home_solax_smart_sub_title" => "required",
-            "home_solax_smart_content" => "required",
+            "home_Olax_smart_title" => "required",
+            "home_Olax_smart_sub_title" => "required",
+            "home_Olax_smart_content" => "required",
             "home_leading_the_way_title" => "required",
             "home_leading_the_way_sub_title" => "required",
             "home_leading_slide_one_description" => "required",
@@ -63,7 +63,7 @@ class ContentManagerController extends Controller
             "home_mobile_banner_video" => "file|mimes:mp4|max:" . $file_size,
             "home_owner_video" => "file|mimes:mp4|max:" . $file_size,
             "home_installers_video" => "file|mimes:mp4|max:" . $file_size,
-            "home_solax_smart_video" => "file|mimes:mp4|max:" . $file_size,
+            "home_Olax_smart_video" => "file|mimes:mp4|max:" . $file_size,
             "home_storm_happen_banner" => "file|mimes:gif,jpeg,jpg,png,webp|max:" . $file_size,
             "home_leading_slide_one_image" => "file|mimes:gif,jpeg,jpg,png,webp|max:" . $file_size,
             "home_leading_slide_two_image" => "file|mimes:gif,jpeg,jpg,png,webp|max:" . $file_size,
@@ -81,7 +81,7 @@ class ContentManagerController extends Controller
         $filename_home_mobile_banner_video = $this->handleFileUpload($request, "home_mobile_banner_video", "assets/videos/compressed/");
         $filename_home_owner_video = $this->handleFileUpload($request, "home_owner_video", "assets/videos/compressed/");
         $filename_home_installers_video = $this->handleFileUpload($request, "home_installers_video", "assets/videos/compressed/");
-        $filename_home_solax_smart_video = $this->handleFileUpload($request, "home_solax_smart_video", "assets/videos/compressed/");
+        $filename_home_Olax_smart_video = $this->handleFileUpload($request, "home_Olax_smart_video", "assets/videos/compressed/");
         $filename_home_storm_happen_banner = $this->handleFileUpload($request, "home_storm_happen_banner", "assets/");
         $filename_home_leading_slide_one_image = $this->handleFileUpload($request, "home_leading_slide_one_image", "assets/");
         $filename_home_leading_slide_two_image = $this->handleFileUpload($request, "home_leading_slide_two_image", "assets/");
@@ -95,16 +95,16 @@ class ContentManagerController extends Controller
             "home_powering_sub_title" => $input["home_powering_sub_title"],
             "home_storm_happen_title" => $input["home_storm_happen_title"],
             "home_storm_happen_content" => $input["home_storm_happen_content"],
-            "home_solax_smart_title" => $input["home_solax_smart_title"],
-            "home_solax_smart_sub_title" => $input["home_solax_smart_sub_title"],
-            "home_solax_smart_content" => $input["home_solax_smart_content"],
+            "home_Olax_smart_title" => $input["home_Olax_smart_title"],
+            "home_Olax_smart_sub_title" => $input["home_Olax_smart_sub_title"],
+            "home_Olax_smart_content" => $input["home_Olax_smart_content"],
             "home_leading_the_way_title" => $input["home_leading_the_way_title"],
             "home_leading_the_way_sub_title" => $input["home_leading_the_way_sub_title"],
             "home_banner_video" => $filename_home_banner_video,
             "home_mobile_banner_video" => $filename_home_mobile_banner_video,
             "home_owner_video" => $filename_home_owner_video,
             "home_installers_video" => $filename_home_installers_video,
-            "home_solax_smart_video" => $filename_home_solax_smart_video,
+            "home_Olax_smart_video" => $filename_home_Olax_smart_video,
             "home_storm_happen_banner" => $filename_home_storm_happen_banner,
             "home_leading_slide_one_image" => $filename_home_leading_slide_one_image,
             "home_leading_slide_two_image" => $filename_home_leading_slide_two_image,
@@ -334,8 +334,8 @@ class ContentManagerController extends Controller
                 "homeowner_banner_video_title" => "required",
                 "homeowner_banner_video_sub_title" => "required",
                 "homeowner_xpower_title" => "required",
-                "homeowner_solax_app_title" => "required",
-                "homeowner_solax_app_sub_title" => "required",
+                "homeowner_Olax_app_title" => "required",
+                "homeowner_Olax_app_sub_title" => "required",
                 "homeowner_configure_xpower_title" => "required",
                 "homeowner_configure_xpower_sub_title" => "required",
                 "homeowner_configure_xpower_description" => "required",
@@ -351,7 +351,7 @@ class ContentManagerController extends Controller
                     "file|mimes:mp4|max:" . $file_size,
                 "homeowner_discover_the_xpower_video" =>
                     "file|mimes:mp4|max:" . $file_size,
-                "homeowner_solax_app_video" =>
+                "homeowner_Olax_app_video" =>
                     "file|mimes:mp4|max:" . $file_size,
                 "homeowner_configure_xpower_image" =>
                     "file|mimes:gif,jpeg,jpg,png,webp|max:" . $file_size,
@@ -382,9 +382,9 @@ class ContentManagerController extends Controller
                 "homeowner_discover_the_xpower_video",
                 "assets/videos/compressed/"
             );
-            $filename_homeowner_solax_app_video = $this->handleFileUpload(
+            $filename_homeowner_Olax_app_video = $this->handleFileUpload(
                 $request,
-                "homeowner_solax_app_video",
+                "homeowner_Olax_app_video",
                 "assets/videos/compressed/"
             );
             $filename_homeowner_configure_xpower_image = $this->handleFileUpload(
@@ -416,10 +416,10 @@ class ContentManagerController extends Controller
                     $input["homeowner_banner_video_sub_title"],
                 "homeowner_xpower_title" =>
                     $input["homeowner_xpower_title"],
-                "homeowner_solax_app_title" =>
-                    $input["homeowner_solax_app_title"],
-                "homeowner_solax_app_sub_title" =>
-                    $input["homeowner_solax_app_sub_title"],
+                "homeowner_Olax_app_title" =>
+                    $input["homeowner_Olax_app_title"],
+                "homeowner_Olax_app_sub_title" =>
+                    $input["homeowner_Olax_app_sub_title"],
                 "homeowner_configure_xpower_title" =>
                     $input["homeowner_configure_xpower_title"],
                 "homeowner_configure_xpower_sub_title" =>
@@ -444,7 +444,7 @@ class ContentManagerController extends Controller
                 "homeowner_banner_video" => $filename_homeowner_banner_video,
                 "homeowner_mobile_banner_video" => $filename_homeowner_mobile_banner_video,
                 "homeowner_discover_the_xpower_video" => $filename_homeowner_discover_the_xpower_video,
-                "homeowner_solax_app_video" => $filename_homeowner_solax_app_video,
+                "homeowner_Olax_app_video" => $filename_homeowner_Olax_app_video,
                 "homeowner_configure_xpower_image" => $filename_homeowner_configure_xpower_image,
                 "homeowner_looking_to_offset_image" => $filename_homeowner_looking_to_offset_image,
                 "homeowner_states_with_height_image" => $filename_homeowner_states_with_height_image,

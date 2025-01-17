@@ -134,7 +134,7 @@
                 </div>
             </div>
             <div class="grow h-[630px]">
-                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6489225.146606274!2d-124.5845062917413!3d37.16298408809854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d74e6d951c9b64d%3A0x428c278ac38a6944!2sSolax%20Power%20US!5e0!3m2!1sen!2sin!4v1723722227094!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6489225.146606274!2d-124.5845062917413!3d37.16298408809854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d74e6d951c9b64d%3A0x428c278ac38a6944!2sOlax%20Power%20US!5e0!3m2!1sen!2sin!4v1723722227094!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.6145709212997!2d-121.96337382393664!3d37.375295872088664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fca27c3f7468b%3A0xaa895ba2ad8726bd!2s2908%20Scott%20Blvd%2C%20Santa%20Clara%2C%20CA%2095054%2C%20USA!5e0!3m2!1sen!2sin!4v1728465131187!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
@@ -167,8 +167,8 @@
                     <span class="font-semibold text-[24px] font-primary text-primary-black">Email</span>
                 </div>
                 <div class="flex items-center">
-                    <span class="font-secondary text-[20px] text-center leading-[32px] text-primary-black"> info@solaxpower.com
-                          service.us@solaxpower.com</span>
+                    <span class="font-secondary text-[20px] text-center leading-[32px] text-primary-black"> info@Olaxpower.com
+                          service.us@Olaxpower.com</span>
                 </div>
             </div>
         </div>

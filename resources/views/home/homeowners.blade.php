@@ -152,16 +152,16 @@
         <div class="flex flex-col gap-16 lg:gap-24">
             <div class="flex flex-col items-center gap-2">
                 <span
-                    class="font-primary text-lg text-primary-orange font-medium uppercase text-center">{{ $homeOwnerPageContent['homeowner_solax_app_title']['value'] ?? '' }}</span>
+                    class="font-primary text-lg text-primary-orange font-medium uppercase text-center">{{ $homeOwnerPageContent['homeowner_Olax_app_title']['value'] ?? '' }}</span>
                 <h2
                     class="font-primary text-4xl lg:text-6xl lg:leading-[70px] text-primary-white font-medium text-center">
-                    {{ $homeOwnerPageContent['homeowner_solax_app_sub_title']['value'] ?? '' }}
+                    {{ $homeOwnerPageContent['homeowner_Olax_app_sub_title']['value'] ?? '' }}
                 </h2>
             </div>
 
             <div class="flex flex-col lg:flex-row gap-6 lg:gap-10">
                 <div>
-                    <img class="lazyload" data-src="{{ asset('/assets/homeowner/SolaXApp.png') }}" alt="home energy storage system"  width="527" height="517"/>
+                    <img class="lazyload" data-src="{{ asset('/assets/homeowner/OlaxApp.png') }}" alt="home energy storage system"  width="527" height="517"/>
                 </div>
 
                 <div class="flex flex-col gap-10">
@@ -195,7 +195,7 @@
                                     poster=""
                                     class="h-full w-full xl:h-auto object-cover lazyload">
                                     <source
-                                        data-src="{{ asset('/assets/videos/compressed/' . $homeOwnerPageContent['homeowner_solax_app_video']['value'] ?? '') }}"
+                                        data-src="{{ asset('/assets/videos/compressed/' . $homeOwnerPageContent['homeowner_Olax_app_video']['value'] ?? '') }}"
                                         type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
@@ -214,13 +214,13 @@
                     </div>
 
                     <div class="flex justify-center gap-6">
-                        <a href="https://play.google.com/store/apps/details?id=com.solaxcloud.starter">
+                        <a href="https://play.google.com/store/apps/details?id=com.Olaxcloud.starter">
                             <img
                                 width="200" height="58"
                                 src="{{ asset('/assets/homeowner/googleplay.png') }}"
                                 alt="googleplay" />
                         </a>
-                        <a href="https://apps.apple.com/us/app/solaxcloud/id1300059673 ">
+                        <a href="https://apps.apple.com/us/app/Olaxcloud/id1300059673 ">
                             <img
                                 width="200" height="58"
                                 src="{{ asset('/assets/homeowner/appstore.png') }}"
@@ -299,52 +299,52 @@
                                         <li>
                                             <div class="text-white gap-4">
                                                 <h1 class="text-2xl font-semibold text-left mb-6">
-                                                SolaX - Offering Home Energy Storage Solution for Your House
+                                                Olax - Offering Home Energy Storage Solution for Your House
                                                 </h1>
                                                 <p class="font-secondary text-primary-white">
-                                                Installing SolaX’s advanced energy storage systems for your home means you have reduced risks of running out of electricity. Enhanced energy independence and reduced electricity bills are possible with our <strong>home battery backup systems</strong>. With our home solar battery systems, you can store energy that has been absorbed by your photovoltaic panels so that you can use it when needed most.
+                                                Installing Olax’s advanced energy storage systems for your home means you have reduced risks of running out of electricity. Enhanced energy independence and reduced electricity bills are possible with our <strong>home battery backup systems</strong>. With our home solar battery systems, you can store energy that has been absorbed by your photovoltaic panels so that you can use it when needed most.
                                                 </p>
                                                 <br />
                                                 <h2 class="text-xl font-semibold mt-12 mb-6">
                                                 Get Reliable Home Battery Backup
                                                 </h2>
                                                 <div class="text-lg leading-relaxed space-y-6">
-                                                    <p class="font-secondary text-primary-white">A home battery backup gives all support when there is a power outage. Generally, you will enjoy having comfort when you reside in areas prone to blackouts. SolaX’s <strong>home solar energy storage</strong> systems will store extra energy produced during the day that can be used at night or even during emergencies. Hence, with our <strong>home battery power storage</strong> solutions, you can minimize your reliance on the grid while being sure that all your critical appliances keep humming within the system capacity: a fridge, an internet router, or even a small air conditioner.</p>
+                                                    <p class="font-secondary text-primary-white">A home battery backup gives all support when there is a power outage. Generally, you will enjoy having comfort when you reside in areas prone to blackouts. Olax’s <strong>home solar energy storage</strong> systems will store extra energy produced during the day that can be used at night or even during emergencies. Hence, with our <strong>home battery power storage</strong> solutions, you can minimize your reliance on the grid while being sure that all your critical appliances keep humming within the system capacity: a fridge, an internet router, or even a small air conditioner.</p>
                                                 </div>
                                                 <br />
                                                 <h2 class="text-xl font-semibold mt-12 mb-6">
-                                                Maximize Your Solar Investment with SolaX
+                                                Maximize Your Solar Investment with Olax
                                                 </h2>
                                                 <div class="text-lg leading-relaxed space-y-6">
                                                     <p class="font-secondary text-primary-white">Add our <strong>home solar energy storage</strong> systems to your home! Store the excess energy generated by our <strong>solar backup generator</strong> instead of feeding it back into the grid. You'll be able to store this power and use it at peak hours when power rates are higher. This way, you'll save energy costs while having better control over your usage. With our solar energy storage solutions, you're not just investing in a solar system but also a <strong>home battery backup</strong> system that works for you all year round.</p>
                                                 </div>
                                                 <br />
                                                 <h2 class="text-xl font-semibold mt-12 mb-6">
-                                                Quick Access to SolaX App for Managing Any Power Urgencies
+                                                Quick Access to Olax App for Managing Any Power Urgencies
                                                 </h2>
                                                 <div class="text-lg leading-relaxed space-y-6">
-                                                    <p class="font-secondary text-primary-white">Our <strong>home solar battery system</strong> gives you so much more than just backup power! SolaX lets you monitor and control the usage of your energy needs with our dedicated smartphone app. Our app allows you to set up your home battery backup system, monitor energy storage, and optimize your energy savings to ensure that you are getting more miles per dollar from the energy you produce at home. From small appliances such as a television to heavy appliances such as an EV charger, our app makes managing energy consumption simple.</p>
+                                                    <p class="font-secondary text-primary-white">Our <strong>home solar battery system</strong> gives you so much more than just backup power! Olax lets you monitor and control the usage of your energy needs with our dedicated smartphone app. Our app allows you to set up your home battery backup system, monitor energy storage, and optimize your energy savings to ensure that you are getting more miles per dollar from the energy you produce at home. From small appliances such as a television to heavy appliances such as an EV charger, our app makes managing energy consumption simple.</p>
                                                 </div>
                                                 <br />
                                                 <h2 class="text-xl font-semibold mt-12 mb-6">
                                                 Enjoy Smart Energy Features for Your Home
                                                 </h2>
                                                 <div class="text-lg leading-relaxed space-y-6">
-                                                    <p class="font-secondary text-primary-white">Our residential battery systems integrate with many devices and household appliances. From necessary appliances such as your microwave and refrigerator to larger manageable appliances like your heat pump or vacuum cleaner, our <strong>home energy storage system</strong> ensures you have reliable power. The SolaX XPower system comes fitted with energy storage of up to 80KWh. This allows you to store energy for a longer period and increase savings in terms of the TOU (Time-of-Use) rate in your area.</p>
+                                                    <p class="font-secondary text-primary-white">Our residential battery systems integrate with many devices and household appliances. From necessary appliances such as your microwave and refrigerator to larger manageable appliances like your heat pump or vacuum cleaner, our <strong>home energy storage system</strong> ensures you have reliable power. The Olax XPower system comes fitted with energy storage of up to 80KWh. This allows you to store energy for a longer period and increase savings in terms of the TOU (Time-of-Use) rate in your area.</p>
                                                 </div>
                                                 <br />
                                                 <h2 class="text-xl font-semibold mt-12 mb-6">
-                                                Make Good Savings on Your Energy Bills with SolaX
+                                                Make Good Savings on Your Energy Bills with Olax
                                                 </h2>
                                                 <div class="text-lg leading-relaxed space-y-6">
-                                                    <p class="font-secondary text-primary-white">You save much on your energy bills with SolaX. As you can store electricity during the low-rate off-peak time and utilize it when your rates are the highest, you get to control your electricity costs better. You do not pay for power at high utility rates while providing a reliable backup supply during blackouts. Our <strong>home backup battery system</strong> makes it easy for you to depend less on grid supply and avoid your increased monthly energy cost.</p>
+                                                    <p class="font-secondary text-primary-white">You save much on your energy bills with Olax. As you can store electricity during the low-rate off-peak time and utilize it when your rates are the highest, you get to control your electricity costs better. You do not pay for power at high utility rates while providing a reliable backup supply during blackouts. Our <strong>home backup battery system</strong> makes it easy for you to depend less on grid supply and avoid your increased monthly energy cost.</p>
                                                 </div>
                                                 <br />
                                                 <h2 class="text-xl font-semibold mt-12 mb-6">
-                                                Get Started with SolaX Energy Solutions Today!
+                                                Get Started with Olax Energy Solutions Today!
                                                 </h2>
                                                 <div class="text-lg leading-relaxed space-y-6">
-                                                    <p class="font-secondary text-primary-white">SolaX makes switching to solar energy and battery backup solutions for your home easy. Schedule a free consultation with us today and learn how our <strong>home energy storage systems</strong> can help you store, use, and save energy better. We’re here to help you at each stage of your energy journey: from new installation of home solar battery systems to needing a <strong>home battery backup</strong> system, we make it easy for you to do so!</p>
+                                                    <p class="font-secondary text-primary-white">Olax makes switching to solar energy and battery backup solutions for your home easy. Schedule a free consultation with us today and learn how our <strong>home energy storage systems</strong> can help you store, use, and save energy better. We’re here to help you at each stage of your energy journey: from new installation of home solar battery systems to needing a <strong>home battery backup</strong> system, we make it easy for you to do so!</p>
                                                 </div>
                                             </div>
                                         </li>

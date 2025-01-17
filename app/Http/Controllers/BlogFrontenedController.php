@@ -36,7 +36,7 @@ class BlogFrontenedController extends Controller
         if($slug == 'all'){
             $blog = Blog::with('images')->where('status', 1)->orderBy('id', 'DESC')->skip($skip)->take(6)->get();
         }else{
-            if($slug == 'solax-accessories'){
+            if($slug == 'Olax-accessories'){
                 $type = 1;
             }else if($slug == 'installers'){
                 $type = 2;
